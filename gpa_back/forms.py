@@ -1,4 +1,4 @@
-from django.forms import ModelForm
+from django.forms import ModelForm,DateInput
 from gpa_back.models import Race,Intervention
 from crispy_forms.helper import FormHelper
 from crispy_forms.layout import Layout, Fieldset, Submit,Row,Column
@@ -23,8 +23,7 @@ class RaceForm(ModelForm):
                  Column('begin_date', css_class='form-group col-md-6 mb-0'),
                  Column('end_date', css_class='form-group col-md-6 mb-0'),
                  css_class='form-row'
-             ),
-            
+             ),  
             Submit('submit', 'Submit', css_class='btn btn-primary'),
         )
         
@@ -32,6 +31,10 @@ class RaceForm(ModelForm):
          model = Race
          fields = '__all__'
          exclude = ['steed','car_concerned']
+         widgets = {
+            'begin_date': DateInput(attrs=dict(type='date'),format='%d/%m/%Y'),
+            'end_date':  DateInput(attrs=dict(type='date'),format='%d/%m/%Y'),
+        }
          
 # Create the form class.
 class InterventionForm(ModelForm):
@@ -61,3 +64,6 @@ class InterventionForm(ModelForm):
     class Meta:
          model = Intervention
          fields = '__all__'
+         widgets = {
+            'date': DateInput(attrs=dict(type='date'),format='%d/%m/%Y'),
+        }
