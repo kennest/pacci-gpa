@@ -18,6 +18,7 @@ class Race(SafeDeleteModel):
         UserProfil, on_delete=models.CASCADE, verbose_name="Coursier exécutant la course", related_name="RaceSteed")
     car_concerned = models.ForeignKey(
         Car, on_delete=models.CASCADE, verbose_name="véhicule concerné")
+    reason=models.CharField("Motif de la course",max_length=255,blank=True,null=True)
     begin_date = models.DateField(max_length=255, blank=True, null=True)
     destination = models.CharField(max_length=255, blank=True, null=True)
     end_date = models.DateField(max_length=255, blank=True, null=True)

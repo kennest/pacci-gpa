@@ -6,6 +6,7 @@ from django.shortcuts import render, redirect, reverse
 from django.contrib.auth import login, authenticate
 from django.contrib.auth.forms import UserCreationForm
 from django.contrib.auth.decorators import login_required
+from .forms import RaceForm
 
 # Views
 
@@ -14,6 +15,15 @@ from django.contrib.auth.decorators import login_required
 def home(request):
     return render(request, "dashboard.html", {})
 
+@login_required
+def ask_for_race(request):
+    race_form = RaceForm()
+    return render(request, "forms/race.html", {'form':race_form})
+
+
+@login_required
+def ask_for_intervention(request):
+    return render(request, "forms/intervention.html", {})
 
 def password_change(request):
     return render(request, "dashboard.html", {})
