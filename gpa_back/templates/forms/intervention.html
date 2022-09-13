@@ -1,0 +1,19 @@
+{% extends 'registration/base.html' %}
+{% load crispy_forms_tags %}
+
+ {% block content %}
+ <div class="container-fluid">
+    <div class="row" >
+      <div class="col-3 " style="background-color:#d4d9d6;">
+        {%include "layouts/_sidebar.html"%}
+      </div>
+      <div class="col-9">
+        <form method="post" class="my-class">
+            {% crispy form %}
+        </form>
+      </div>
+      
+    </div>
+    
+  </div>
+ {% endblock %}

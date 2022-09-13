@@ -4,11 +4,13 @@
  {% block content %}
  <div class="container-fluid">
     <div class="row" >
-      <div class="col-3 " style="background-color:#d4d9d6;">
+      <div class="col-3" style="background-color:#d4d9d6;">
         {%include "layouts/_sidebar.html"%}
       </div>
       <div class="col-9">
-          {{form|crispy}}
+        <form method="post" class="my-class">
+            {% crispy form %}
+        </form>
       </div>
       
     </div>
