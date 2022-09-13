@@ -6,6 +6,7 @@ from django.shortcuts import render, redirect, reverse
 from django.contrib.auth import login, authenticate
 from django.contrib.auth.forms import UserCreationForm
 from django.contrib.auth.decorators import login_required
+from .decorators import group_required
 
 from gpa_back.models import intervention
 from .forms import RaceForm,InterventionForm
@@ -21,6 +22,7 @@ def home(request):
     return render(request, "dashboard.html", {})
 
 @login_required
+@group_required("CHEF PROJET")
 def ask_for_race(request):
     if request.method == 'POST':
         # create a form instance and populate it with data from the request:
@@ -44,6 +46,7 @@ def ask_for_race(request):
 
 
 @login_required
+@group_required("COURSIER")
 def ask_for_intervention(request):
     if request.method == 'POST':
         # create a form instance and populate it with data from the request:

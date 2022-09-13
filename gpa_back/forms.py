@@ -24,7 +24,7 @@ class RaceForm(ModelForm):
                  Column('end_date', css_class='form-group col-md-6 mb-0'),
                  css_class='form-row'
              ),  
-            Submit('submit', 'Submit', css_class='btn btn-primary'),
+            Submit('submit', 'Soumettre', css_class='btn btn-primary'),
         )
         
     class Meta:
@@ -58,7 +58,7 @@ class InterventionForm(ModelForm):
                  css_class='form-row'
              ),
             
-            Submit('submit', 'Submit', css_class='btn btn-primary'),
+            Submit('submit', 'Soumettre', css_class='btn btn-primary'),
         )
         
     class Meta:
