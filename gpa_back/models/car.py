@@ -14,3 +14,12 @@ class Car(SafeDeleteModel):
     published = models.DateTimeField("Crée le", auto_now_add=True)
     updated = models.DateTimeField("Crée le", auto_now=True)
     history = HistoricalRecords()
+
+    class Meta:
+        db_table = 'cars'
+        verbose_name = 'Véhicule'
+        verbose_name_plural = 'Véhicules'
+        ordering = ['manufacturer']
+
+    def __str__(self):
+        return "{} | {}".format(self.manufacturer, self.serial_number)

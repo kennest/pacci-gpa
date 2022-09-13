@@ -1,0 +1,33 @@
+{% load static i18n %}
+{% load i18n %}
+{% load static %}
+<ul class="list-unstyled ps-0">
+  <li class="mb-1">
+    <button class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle="collapse" data-bs-target="#dashboard-collapse" aria-expanded="false"><i class="fa fa-cog"></i>Actions</button>
+    <div class="collapse" id="dashboard-collapse">
+      <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 ">
+        <li>
+          <a href="#" class="link-dark rounded"><i class="fa-solid fa-road"></i>Faire une demande une course</a>
+        </li>
+        <li>
+          <a href="#" class="link-dark rounded"><i class="fa fa-hammer"></i>faire une demande une intervention</a>
+        </li>
+      </ul>
+    </div>
+  </li>
+  <li class="border-top my-3"></li>
+  <li class="mb-1">
+    <button class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle="collapse" data-bs-target="#account-collapse" aria-expanded="false"><i class="fa-solid fa-file-export"></i>Export</button>
+    <div class="collapse" id="account-collapse" style="">
+      <ul class="btn-toggle-nav list-unstyled fw-normal pb-1">
+        <li>
+          <a href="#" class="link-dark rounded"><i class="fa-solid fa-file-csv"></i>CSV</a>
+        </li>
+        <li>
+          <a href="#" class="link-dark rounded"><i class="fa-sharp fa-solid fa-file-excel"></i>Excel</a>
+        </li>
+        
+      </ul>
+    </div>
+  </li>
+</ul>

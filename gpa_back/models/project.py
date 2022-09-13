@@ -15,3 +15,12 @@ class Project(SafeDeleteModel):
     published = models.DateTimeField("Crée le", auto_now_add=True)
     updated = models.DateTimeField("Crée le", auto_now=True)
     history = HistoricalRecords()
+
+    class Meta:
+        db_table = 'projects'
+        verbose_name = 'Projet'
+        verbose_name_plural = 'Projets'
+        ordering = ['label']
+
+    def __str__(self):
+        return f"{self.label}"

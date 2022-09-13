@@ -25,3 +25,12 @@ class Intervention(SafeDeleteModel):
     published = models.DateTimeField("Crée le", auto_now_add=True)
     updated = models.DateTimeField("Crée le", auto_now=True)
     history = HistoricalRecords()
+
+    class Meta:
+        db_table = 'interventions'
+        verbose_name = 'Intervention'
+        verbose_name_plural = 'Interventions'
+        ordering = ['project', 'type']
+
+    def __str__(self):
+        return "{} | {}".format(self.type, self.project)

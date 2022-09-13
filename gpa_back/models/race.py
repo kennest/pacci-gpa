@@ -18,9 +18,19 @@ class Race(SafeDeleteModel):
         UserProfil, on_delete=models.CASCADE, verbose_name="Coursier exécutant la course", related_name="RaceSteed")
     car_concerned = models.ForeignKey(
         Car, on_delete=models.CASCADE, verbose_name="véhicule concerné")
-    begin_date = models.DateField(max_length=255)
-    end_date = models.DateField(max_length=255)
+    begin_date = models.DateField(max_length=255, blank=True, null=True)
+    destination = models.CharField(max_length=255, blank=True, null=True)
+    end_date = models.DateField(max_length=255, blank=True, null=True)
     document = GenericRelation(Document)
     published = models.DateTimeField("Crée le", auto_now_add=True)
     updated = models.DateTimeField("Crée le", auto_now=True)
     history = HistoricalRecords()
+
+    class Meta:
+        db_table = 'races'
+        verbose_name = 'Course'
+        verbose_name_plural = 'Courses'
+        ordering = ['project', 'car_concerned', 'applicant']
+
+    def __str__(self):
+        return f"{self.project} | {self.car_concerned}"

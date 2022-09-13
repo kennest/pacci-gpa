@@ -1,0 +1,211 @@
+html,
+body {
+    font-size: 14px;
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+    font-family: Roboto, Helvetica;
+
+}
+
+#wrapper {
+    overflow: hidden;
+}
+
+.mereva {
+    background-color: #326690;
+    min-height: 31px;
+    border: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.fa {
+    color: #326690;
+}
+
+.mereva .nav-link {
+    color: white;
+    padding-bottom: 7px;
+}
+
+
+#menu-toggle {
+    color: white;
+    padding: 2px;
+}
+
+#menu-toggle .fa-bars {
+    color: white;
+}
+
+table a {
+    color: #326690;
+}
+
+/* sidebar -------------------------------------------------- */
+
+.nav-link {
+    color: black;
+    padding-bottom: 3px;
+
+}
+
+.navbar .nav-link:hover {
+    color: #79bbf1;
+}
+
+#sidebar-wrapper .nav-link:hover {
+    color: #326690;
+}
+
+.navbar {
+    margin-bottom: 10px;
+}
+
+.fa-info-circle {
+    color: #856404;
+}
+
+#lock {
+    width: 35px;
+    height: 30px;
+
+}
+
+
+table.index_table {
+    table-layout: fixed;
+    width: 100%;
+}
+
+.index_table {
+    border: 1px solid #C0C0C0;
+    border-collapse: collapse;
+    padding: 5px;
+}
+
+.index_table th {
+    border: 1px solid #C0C0C0;
+    padding: 5px;
+    background: #F0F0F0;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.index_table td {
+    border: 1px solid #C0C0C0;
+    padding: 5px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.print {
+    padding-left: 6px;
+}
+
+/* .sidebar-heading {
+    color: white;
+  } */
+
+/* Sticky footer styles -------------------------------------------------- */
+
+.asteriskField {
+    display: none;
+}
+
+form .alert ul li {
+    list-style: none;
+}
+
+form .alert ul {
+    margin: 0;
+    padding: 0;
+}
+
+body>div>div.col-6>div>div>h2 {
+    font-size: 20px;
+}
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    /* Set the fixed height of the footer here */
+    height: 40px;
+    line-height: 40px;
+    /* Vertically center the text there */
+    background-color: #343a40;
+    margin-left: -1.1em;
+
+}
+
+
+
+/* DatePicker */
+.ui-datepicker .ui-datepicker-header {
+    background-color: black;
+    color: white;
+}
+
+/* fontsize smaller pour Chrome */
+.fontsize_smaller {
+    font-size: smaller;
+}
+
+
+#footer_datatable {
+    position: fixed;
+    bottom: 10px;
+    height: 45px;
+    width: 100%;
+    /*background-color: #ebebeb;*/
+}
+
+#footer_datatable_info {
+    padding-top: 5px;
+}
+
+#footer_datatable_paginate {
+    padding-top: 5px;
+}
+
+.addspace {
+    padding-bottom: 10px;
+}
+
+#env {
+    margin-top: 10px;
+}
+
+#patient_crf>tbody>tr>td>a {
+    text-decoration: none;
+    color: black;
+}
+
+#patient_navbar>li>a {
+    color: black;
+}
+
+#table_id td,
+#table_id th {
+    padding-top: 5px;
+    padding-bottom: 5px;
+
+}
+
+#crispy-form {
+    overflow-x: hidden;
+    overflow-y: scroll;
+    height: 600px;
+}
+
+.fit-picture {
+    width: 10px;
+    height: 10px;
+}
+
+.formulaire {
+    margin-left: 5px;
+    margin-right: 5px;
+}
