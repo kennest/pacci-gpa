@@ -93,6 +93,14 @@ var barChart = new Chart(ctxBar, {
         <div class="container-fluid">
             <div class="row">
               <div class="col-12">
+                <div class="row">
+                  <div class="col-6">
+                    {%include "layouts/_races.html"%}
+                  </div>
+                  <div class="col-6">
+                    {%include "layouts/_interventions.html"%}
+                  </div>
+                </div>
                 <canvas id="lineChart" width="400" height="100"></canvas>  
               </div>
               <div class="col-12">
