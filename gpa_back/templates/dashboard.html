@@ -1,6 +1,6 @@
-{% extends 'registration/base.html' %} 
-{%block scripts%}
-<script>
+{% extends "registration/base.html" %}
+{% block scripts %}
+  <script>
 // jquery function
 $(document).ready(function(){
         var ctxLine = document.getElementById('lineChart').getContext('2d');
@@ -80,38 +80,31 @@ var barChart = new Chart(ctxBar, {
   }
 });
     });
-</script>
-{%endblock scripts%}
+  </script>
+{% endblock scripts %}
 {% block content %}
-<section>
-  <div class="container-fluid">
-    <div class="row" >
-      <div class="col-3 ">
-        {%include "layouts/_sidebar.html"%}
-      </div>
-      <div class="col-md-9 ">
-        <div class="container-fluid">
+  <section>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-3 ">{% include "layouts/_sidebar.html" %}</div>
+        <div class="col-md-9 ">
+          <div class="divider"></div>
+          <div class="container-fluid">
             <div class="row">
               <div class="col-12">
                 <div class="row">
-                  <div class="col-6">
-                    {%include "layouts/_races.html"%}
-                  </div>
-                  <div class="col-6">
-                    {%include "layouts/_interventions.html"%}
-                  </div>
+                  <div class="col-6">{% include "layouts/_races.html" %}</div>
+                  <div class="col-6">{% include "layouts/_interventions.html" %}</div>
                 </div>
-                <canvas id="lineChart" width="400" height="100"></canvas>  
+                <canvas id="lineChart" width="400" height="100"></canvas>
               </div>
               <div class="col-12">
-                <canvas id="barChart" width="400" height="100"></canvas>  
+                <canvas id="barChart" width="400" height="100"></canvas>
               </div>
+            </div>
           </div>
         </div>
-       
-      </div>    
+      </div>
     </div>
-    
-  </div>
-</section>
-{% endblock %} 
+  </section>
+{% endblock content %}

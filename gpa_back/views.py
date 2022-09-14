@@ -17,14 +17,13 @@ from .models import Intervention,Race
 @login_required
 def home(request:HttpRequest):
     messages.add_message(request, messages.INFO,  'Bienvenue, %s ' % request.user.username)
-    if request.user.is_authenticated:
-        if bool(request.user.groups.filter(name="RESPONSABLE")) | request.user.is_superuser:
-            races_pending= Race.objects.filter(status="PENDING").all()
-            interventions_pending= Intervention.objects.filter(status="PENDING").all()
-            context={"races": races_pending,'interventions':interventions_pending}
-            template="dashboard.html"
-            print("ACCOUNTABLE CTX :{}".format(context))
-            return render(request, template, context)
+    if bool(request.user.groups.filter(name="RESPONSABLE")) | request.user.is_superuser:
+        races_pending= Race.objects.filter(status="PENDING").all()
+        interventions_pending= Intervention.objects.filter(status="PENDING").all()
+        context={"races": races_pending,'interventions':interventions_pending}
+        template="dashboard.html"
+        print("ACCOUNTABLE CTX :{}".format(context))
+        return render(request, template, context)
     else:
         template="dashboard.html"
         context={}
