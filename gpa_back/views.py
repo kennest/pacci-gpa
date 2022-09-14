@@ -32,6 +32,14 @@ def home(request:HttpRequest):
         return render(request, template, context)
 
 @login_required
+@group_required("RESPONSABLE")
+def races_list(request:HttpRequest): 
+    races= Race.objects.all().order_by('-status')
+    context={"races": races}
+    template="race_list.html"
+    return render(request, template, context)
+
+@login_required
 @group_required("CHEF PROJET")
 def ask_for_race(request:HttpRequest):
     if request.method == 'POST':
