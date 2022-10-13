@@ -1,0 +1,1382 @@
+[
+    {
+        "label": "print_function",
+        "importPath": "__future__",
+        "description": "__future__",
+        "isExtraImport": true,
+        "detail": "__future__",
+        "documentation": {}
+    },
+    {
+        "label": "os",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "os",
+        "description": "os",
+        "detail": "os",
+        "documentation": {}
+    },
+    {
+        "label": "get_asgi_application",
+        "importPath": "django.core.asgi",
+        "description": "django.core.asgi",
+        "isExtraImport": true,
+        "detail": "django.core.asgi",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "constants",
+        "importPath": "django.contrib.messages",
+        "description": "django.contrib.messages",
+        "isExtraImport": true,
+        "detail": "django.contrib.messages",
+        "documentation": {}
+    },
+    {
+        "label": "admin",
+        "importPath": "django.contrib",
+        "description": "django.contrib",
+        "isExtraImport": true,
+        "detail": "django.contrib",
+        "documentation": {}
+    },
+    {
+        "label": "admin",
+        "importPath": "django.contrib",
+        "description": "django.contrib",
+        "isExtraImport": true,
+        "detail": "django.contrib",
+        "documentation": {}
+    },
+    {
+        "label": "messages",
+        "importPath": "django.contrib",
+        "description": "django.contrib",
+        "isExtraImport": true,
+        "detail": "django.contrib",
+        "documentation": {}
+    },
+    {
+        "label": "path",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "include",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "views",
+        "importPath": "django.contrib.auth",
+        "description": "django.contrib.auth",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth",
+        "documentation": {}
+    },
+    {
+        "label": "login",
+        "importPath": "django.contrib.auth",
+        "description": "django.contrib.auth",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth",
+        "documentation": {}
+    },
+    {
+        "label": "authenticate",
+        "importPath": "django.contrib.auth",
+        "description": "django.contrib.auth",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth",
+        "documentation": {}
+    },
+    {
+        "label": "views",
+        "importPath": "gpa_back",
+        "description": "gpa_back",
+        "isExtraImport": true,
+        "detail": "gpa_back",
+        "documentation": {}
+    },
+    {
+        "label": "get_wsgi_application",
+        "importPath": "django.core.wsgi",
+        "description": "django.core.wsgi",
+        "isExtraImport": true,
+        "detail": "django.core.wsgi",
+        "documentation": {}
+    },
+    {
+        "label": "settings",
+        "importPath": "django.conf",
+        "description": "django.conf",
+        "isExtraImport": true,
+        "detail": "django.conf",
+        "documentation": {}
+    },
+    {
+        "label": "settings",
+        "importPath": "django.conf",
+        "description": "django.conf",
+        "isExtraImport": true,
+        "detail": "django.conf",
+        "documentation": {}
+    },
+    {
+        "label": "settings",
+        "importPath": "django.conf",
+        "description": "django.conf",
+        "isExtraImport": true,
+        "detail": "django.conf",
+        "documentation": {}
+    },
+    {
+        "label": "settings",
+        "importPath": "django.conf",
+        "description": "django.conf",
+        "isExtraImport": true,
+        "detail": "django.conf",
+        "documentation": {}
+    },
+    {
+        "label": "settings",
+        "importPath": "django.conf",
+        "description": "django.conf",
+        "isExtraImport": true,
+        "detail": "django.conf",
+        "documentation": {}
+    },
+    {
+        "label": "settings",
+        "importPath": "django.conf",
+        "description": "django.conf",
+        "isExtraImport": true,
+        "detail": "django.conf",
+        "documentation": {}
+    },
+    {
+        "label": "settings",
+        "importPath": "django.conf",
+        "description": "django.conf",
+        "isExtraImport": true,
+        "detail": "django.conf",
+        "documentation": {}
+    },
+    {
+        "label": "settings",
+        "importPath": "django.conf",
+        "description": "django.conf",
+        "isExtraImport": true,
+        "detail": "django.conf",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "django.db.models.deletion",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "django.db.models.deletion",
+        "description": "django.db.models.deletion",
+        "detail": "django.db.models.deletion",
+        "documentation": {}
+    },
+    {
+        "label": "simple_history.models",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "simple_history.models",
+        "description": "simple_history.models",
+        "detail": "simple_history.models",
+        "documentation": {}
+    },
+    {
+        "label": "HistoricalRecords",
+        "importPath": "simple_history.models",
+        "description": "simple_history.models",
+        "isExtraImport": true,
+        "detail": "simple_history.models",
+        "documentation": {}
+    },
+    {
+        "label": "HistoricalRecords",
+        "importPath": "simple_history.models",
+        "description": "simple_history.models",
+        "isExtraImport": true,
+        "detail": "simple_history.models",
+        "documentation": {}
+    },
+    {
+        "label": "HistoricalRecords",
+        "importPath": "simple_history.models",
+        "description": "simple_history.models",
+        "isExtraImport": true,
+        "detail": "simple_history.models",
+        "documentation": {}
+    },
+    {
+        "label": "HistoricalRecords",
+        "importPath": "simple_history.models",
+        "description": "simple_history.models",
+        "isExtraImport": true,
+        "detail": "simple_history.models",
+        "documentation": {}
+    },
+    {
+        "label": "HistoricalRecords",
+        "importPath": "simple_history.models",
+        "description": "simple_history.models",
+        "isExtraImport": true,
+        "detail": "simple_history.models",
+        "documentation": {}
+    },
+    {
+        "label": "HistoricalRecords",
+        "importPath": "simple_history.models",
+        "description": "simple_history.models",
+        "isExtraImport": true,
+        "detail": "simple_history.models",
+        "documentation": {}
+    },
+    {
+        "label": "django.utils.timezone",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "django.utils.timezone",
+        "description": "django.utils.timezone",
+        "detail": "django.utils.timezone",
+        "documentation": {}
+    },
+    {
+        "label": "SafeDeleteModel",
+        "importPath": "safedelete.models",
+        "description": "safedelete.models",
+        "isExtraImport": true,
+        "detail": "safedelete.models",
+        "documentation": {}
+    },
+    {
+        "label": "SafeDeleteModel",
+        "importPath": "safedelete.models",
+        "description": "safedelete.models",
+        "isExtraImport": true,
+        "detail": "safedelete.models",
+        "documentation": {}
+    },
+    {
+        "label": "SafeDeleteModel",
+        "importPath": "safedelete.models",
+        "description": "safedelete.models",
+        "isExtraImport": true,
+        "detail": "safedelete.models",
+        "documentation": {}
+    },
+    {
+        "label": "SafeDeleteModel",
+        "importPath": "safedelete.models",
+        "description": "safedelete.models",
+        "isExtraImport": true,
+        "detail": "safedelete.models",
+        "documentation": {}
+    },
+    {
+        "label": "SafeDeleteModel",
+        "importPath": "safedelete.models",
+        "description": "safedelete.models",
+        "isExtraImport": true,
+        "detail": "safedelete.models",
+        "documentation": {}
+    },
+    {
+        "label": "SafeDeleteModel",
+        "importPath": "safedelete.models",
+        "description": "safedelete.models",
+        "isExtraImport": true,
+        "detail": "safedelete.models",
+        "documentation": {}
+    },
+    {
+        "label": "SafeDeleteModel",
+        "importPath": "safedelete.models",
+        "description": "safedelete.models",
+        "isExtraImport": true,
+        "detail": "safedelete.models",
+        "documentation": {}
+    },
+    {
+        "label": "GenericForeignKey",
+        "importPath": "django.contrib.contenttypes.fields",
+        "description": "django.contrib.contenttypes.fields",
+        "isExtraImport": true,
+        "detail": "django.contrib.contenttypes.fields",
+        "documentation": {}
+    },
+    {
+        "label": "GenericRelation",
+        "importPath": "django.contrib.contenttypes.fields",
+        "description": "django.contrib.contenttypes.fields",
+        "isExtraImport": true,
+        "detail": "django.contrib.contenttypes.fields",
+        "documentation": {}
+    },
+    {
+        "label": "GenericRelation",
+        "importPath": "django.contrib.contenttypes.fields",
+        "description": "django.contrib.contenttypes.fields",
+        "isExtraImport": true,
+        "detail": "django.contrib.contenttypes.fields",
+        "documentation": {}
+    },
+    {
+        "label": "GenericRelation",
+        "importPath": "django.contrib.contenttypes.fields",
+        "description": "django.contrib.contenttypes.fields",
+        "isExtraImport": true,
+        "detail": "django.contrib.contenttypes.fields",
+        "documentation": {}
+    },
+    {
+        "label": "GenericRelation",
+        "importPath": "django.contrib.contenttypes.fields",
+        "description": "django.contrib.contenttypes.fields",
+        "isExtraImport": true,
+        "detail": "django.contrib.contenttypes.fields",
+        "documentation": {}
+    },
+    {
+        "label": "ContentType",
+        "importPath": "django.contrib.contenttypes.models",
+        "description": "django.contrib.contenttypes.models",
+        "isExtraImport": true,
+        "detail": "django.contrib.contenttypes.models",
+        "documentation": {}
+    },
+    {
+        "label": "FileSystemStorage",
+        "importPath": "django.core.files.storage",
+        "description": "django.core.files.storage",
+        "isExtraImport": true,
+        "detail": "django.core.files.storage",
+        "documentation": {}
+    },
+    {
+        "label": "FileSystemStorage",
+        "importPath": "django.core.files.storage",
+        "description": "django.core.files.storage",
+        "isExtraImport": true,
+        "detail": "django.core.files.storage",
+        "documentation": {}
+    },
+    {
+        "label": "Document",
+        "importPath": "gpa_back.models",
+        "description": "gpa_back.models",
+        "isExtraImport": true,
+        "detail": "gpa_back.models",
+        "documentation": {}
+    },
+    {
+        "label": "*",
+        "importPath": "gpa_back.models",
+        "description": "gpa_back.models",
+        "isExtraImport": true,
+        "detail": "gpa_back.models",
+        "documentation": {}
+    },
+    {
+        "label": "Race",
+        "importPath": "gpa_back.models",
+        "description": "gpa_back.models",
+        "isExtraImport": true,
+        "detail": "gpa_back.models",
+        "documentation": {}
+    },
+    {
+        "label": "Intervention",
+        "importPath": "gpa_back.models",
+        "description": "gpa_back.models",
+        "isExtraImport": true,
+        "detail": "gpa_back.models",
+        "documentation": {}
+    },
+    {
+        "label": "User",
+        "importPath": "django.contrib.auth.models",
+        "description": "django.contrib.auth.models",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth.models",
+        "documentation": {}
+    },
+    {
+        "label": "User",
+        "importPath": "django.contrib.auth.models",
+        "description": "django.contrib.auth.models",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth.models",
+        "documentation": {}
+    },
+    {
+        "label": "AppConfig",
+        "importPath": "django.apps",
+        "description": "django.apps",
+        "isExtraImport": true,
+        "detail": "django.apps",
+        "documentation": {}
+    },
+    {
+        "label": "user_passes_test",
+        "importPath": "django.contrib.auth.decorators",
+        "description": "django.contrib.auth.decorators",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth.decorators",
+        "documentation": {}
+    },
+    {
+        "label": "login_required",
+        "importPath": "django.contrib.auth.decorators",
+        "description": "django.contrib.auth.decorators",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth.decorators",
+        "documentation": {}
+    },
+    {
+        "label": "render",
+        "importPath": "django.shortcuts",
+        "description": "django.shortcuts",
+        "isExtraImport": true,
+        "detail": "django.shortcuts",
+        "documentation": {}
+    },
+    {
+        "label": "render",
+        "importPath": "django.shortcuts",
+        "description": "django.shortcuts",
+        "isExtraImport": true,
+        "detail": "django.shortcuts",
+        "documentation": {}
+    },
+    {
+        "label": "redirect",
+        "importPath": "django.shortcuts",
+        "description": "django.shortcuts",
+        "isExtraImport": true,
+        "detail": "django.shortcuts",
+        "documentation": {}
+    },
+    {
+        "label": "ModelForm",
+        "importPath": "django.forms",
+        "description": "django.forms",
+        "isExtraImport": true,
+        "detail": "django.forms",
+        "documentation": {}
+    },
+    {
+        "label": "DateInput",
+        "importPath": "django.forms",
+        "description": "django.forms",
+        "isExtraImport": true,
+        "detail": "django.forms",
+        "documentation": {}
+    },
+    {
+        "label": "FormHelper",
+        "importPath": "crispy_forms.helper",
+        "description": "crispy_forms.helper",
+        "isExtraImport": true,
+        "detail": "crispy_forms.helper",
+        "documentation": {}
+    },
+    {
+        "label": "Layout",
+        "importPath": "crispy_forms.layout",
+        "description": "crispy_forms.layout",
+        "isExtraImport": true,
+        "detail": "crispy_forms.layout",
+        "documentation": {}
+    },
+    {
+        "label": "Fieldset",
+        "importPath": "crispy_forms.layout",
+        "description": "crispy_forms.layout",
+        "isExtraImport": true,
+        "detail": "crispy_forms.layout",
+        "documentation": {}
+    },
+    {
+        "label": "Submit",
+        "importPath": "crispy_forms.layout",
+        "description": "crispy_forms.layout",
+        "isExtraImport": true,
+        "detail": "crispy_forms.layout",
+        "documentation": {}
+    },
+    {
+        "label": "Row",
+        "importPath": "crispy_forms.layout",
+        "description": "crispy_forms.layout",
+        "isExtraImport": true,
+        "detail": "crispy_forms.layout",
+        "documentation": {}
+    },
+    {
+        "label": "Column",
+        "importPath": "crispy_forms.layout",
+        "description": "crispy_forms.layout",
+        "isExtraImport": true,
+        "detail": "crispy_forms.layout",
+        "documentation": {}
+    },
+    {
+        "label": "TestCase",
+        "importPath": "django.test",
+        "description": "django.test",
+        "isExtraImport": true,
+        "detail": "django.test",
+        "documentation": {}
+    },
+    {
+        "label": "UserCreationForm",
+        "importPath": "django.contrib.auth.forms",
+        "description": "django.contrib.auth.forms",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth.forms",
+        "documentation": {}
+    },
+    {
+        "label": "HttpRequest",
+        "importPath": "django.http",
+        "description": "django.http",
+        "isExtraImport": true,
+        "detail": "django.http",
+        "documentation": {}
+    },
+    {
+        "label": "sys",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "sys",
+        "description": "sys",
+        "detail": "sys",
+        "documentation": {}
+    },
+    {
+        "label": "cmd_doc",
+        "kind": 5,
+        "importPath": ".env.bin.runxlrd",
+        "description": ".env.bin.runxlrd",
+        "peekOfCode": "cmd_doc = \"\"\"\nCommands:\n2rows           Print the contents of first and last row in each sheet\n3rows           Print the contents of first, second and last row in each sheet\nbench           Same as \"show\", but doesn't print -- for profiling\nbiff_count[1]   Print a count of each type of BIFF record in the file\nbiff_dump[1]    Print a dump (char and hex) of the BIFF records in the file\nfonts           hdr + print a dump of all font objects\nhdr             Mini-overview of file (no per-sheet information)\nhotshot         Do a hotshot profile run e.g. ... -f1 hotshot bench bigfile*.xls",
+        "detail": ".env.bin.runxlrd",
+        "documentation": {}
+    },
+    {
+        "label": "options",
+        "kind": 5,
+        "importPath": ".env.bin.runxlrd",
+        "description": ".env.bin.runxlrd",
+        "peekOfCode": "options = None\nif __name__ == \"__main__\":\n    import xlrd\n    import sys\n    import time\n    import glob\n    import traceback\n    import gc\n    from xlrd.timemachine import xrange, REPR\n    class LogHandler(object):",
+        "detail": ".env.bin.runxlrd",
+        "documentation": {}
+    },
+    {
+        "label": "application",
+        "kind": 5,
+        "importPath": "core.asgi",
+        "description": "core.asgi",
+        "peekOfCode": "application = get_asgi_application()",
+        "detail": "core.asgi",
+        "documentation": {}
+    },
+    {
+        "label": "BASE_DIR",
+        "kind": 5,
+        "importPath": "core.settings",
+        "description": "core.settings",
+        "peekOfCode": "BASE_DIR = Path(__file__).resolve().parent.parent\n# Quick-start development settings - unsuitable for production\n# See https://docs.djangoproject.com/en/4.1/howto/deployment/checklist/\n# SECURITY WARNING: keep the secret key used in production secret!\nSECRET_KEY = 'django-insecure-46=t9xs0j1q-4zji$vs%%0=d+wy2&)!6jeeqw3nz7#-d3mh(oz'\n# SECURITY WARNING: don't run with debug turned on in production!\nDEBUG = True\nALLOWED_HOSTS = []\n# Application definition\nINSTALLED_APPS = [",
+        "detail": "core.settings",
+        "documentation": {}
+    },
+    {
+        "label": "SECRET_KEY",
+        "kind": 5,
+        "importPath": "core.settings",
+        "description": "core.settings",
+        "peekOfCode": "SECRET_KEY = 'django-insecure-46=t9xs0j1q-4zji$vs%%0=d+wy2&)!6jeeqw3nz7#-d3mh(oz'\n# SECURITY WARNING: don't run with debug turned on in production!\nDEBUG = True\nALLOWED_HOSTS = []\n# Application definition\nINSTALLED_APPS = [\n    'grappelli',\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',",
+        "detail": "core.settings",
+        "documentation": {}
+    },
+    {
+        "label": "DEBUG",
+        "kind": 5,
+        "importPath": "core.settings",
+        "description": "core.settings",
+        "peekOfCode": "DEBUG = True\nALLOWED_HOSTS = []\n# Application definition\nINSTALLED_APPS = [\n    'grappelli',\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',\n    'django.contrib.messages',",
+        "detail": "core.settings",
+        "documentation": {}
+    },
+    {
+        "label": "ALLOWED_HOSTS",
+        "kind": 5,
+        "importPath": "core.settings",
+        "description": "core.settings",
+        "peekOfCode": "ALLOWED_HOSTS = []\n# Application definition\nINSTALLED_APPS = [\n    'grappelli',\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',\n    'django.contrib.messages',\n    'django.contrib.staticfiles',",
+        "detail": "core.settings",
+        "documentation": {}
+    },
+    {
+        "label": "INSTALLED_APPS",
+        "kind": 5,
+        "importPath": "core.settings",
+        "description": "core.settings",
+        "peekOfCode": "INSTALLED_APPS = [\n    'grappelli',\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',\n    'django.contrib.messages',\n    'django.contrib.staticfiles',\n    'safedelete',\n    'simple_history',",
+        "detail": "core.settings",
+        "documentation": {}
+    },
+    {
+        "label": "MIDDLEWARE",
+        "kind": 5,
+        "importPath": "core.settings",
+        "description": "core.settings",
+        "peekOfCode": "MIDDLEWARE = [\n    'django.middleware.security.SecurityMiddleware',\n    'django.contrib.sessions.middleware.SessionMiddleware',\n    'django.middleware.common.CommonMiddleware',\n    'django.middleware.csrf.CsrfViewMiddleware',\n    'django.contrib.auth.middleware.AuthenticationMiddleware',\n    'django.contrib.messages.middleware.MessageMiddleware',\n    'django.middleware.clickjacking.XFrameOptionsMiddleware',\n]\nROOT_URLCONF = 'core.urls'",
+        "detail": "core.settings",
+        "documentation": {}
+    },
+    {
+        "label": "ROOT_URLCONF",
+        "kind": 5,
+        "importPath": "core.settings",
+        "description": "core.settings",
+        "peekOfCode": "ROOT_URLCONF = 'core.urls'\nTEMPLATES = [\n    {\n        'BACKEND': 'django.template.backends.django.DjangoTemplates',\n        'DIRS': [\n            os.path.join(BASE_DIR, 'gpa_back/templates'),\n            os.path.join(BASE_DIR, 'templates'),\n        ],\n        'APP_DIRS': True,\n        'OPTIONS': {",
+        "detail": "core.settings",
+        "documentation": {}
+    },
+    {
+        "label": "TEMPLATES",
+        "kind": 5,
+        "importPath": "core.settings",
+        "description": "core.settings",
+        "peekOfCode": "TEMPLATES = [\n    {\n        'BACKEND': 'django.template.backends.django.DjangoTemplates',\n        'DIRS': [\n            os.path.join(BASE_DIR, 'gpa_back/templates'),\n            os.path.join(BASE_DIR, 'templates'),\n        ],\n        'APP_DIRS': True,\n        'OPTIONS': {\n            'context_processors': [",
+        "detail": "core.settings",
+        "documentation": {}
+    },
+    {
+        "label": "WSGI_APPLICATION",
+        "kind": 5,
+        "importPath": "core.settings",
+        "description": "core.settings",
+        "peekOfCode": "WSGI_APPLICATION = 'core.wsgi.application'\n# Database\n# https://docs.djangoproject.com/en/4.1/ref/settings/#databases\nDATABASES = {\n    'default': {\n        'ENGINE': 'django.db.backends.sqlite3',\n        'NAME': BASE_DIR / 'db.sqlite3',\n    }\n}\n# Password validation",
+        "detail": "core.settings",
+        "documentation": {}
+    },
+    {
+        "label": "DATABASES",
+        "kind": 5,
+        "importPath": "core.settings",
+        "description": "core.settings",
+        "peekOfCode": "DATABASES = {\n    'default': {\n        'ENGINE': 'django.db.backends.sqlite3',\n        'NAME': BASE_DIR / 'db.sqlite3',\n    }\n}\n# Password validation\n# https://docs.djangoproject.com/en/4.1/ref/settings/#auth-password-validators\nAUTH_PASSWORD_VALIDATORS = [\n    {",
+        "detail": "core.settings",
+        "documentation": {}
+    },
+    {
+        "label": "AUTH_PASSWORD_VALIDATORS",
+        "kind": 5,
+        "importPath": "core.settings",
+        "description": "core.settings",
+        "peekOfCode": "AUTH_PASSWORD_VALIDATORS = [\n    {\n        'NAME': 'django.contrib.auth.password_validation.UserAttributeSimilarityValidator',\n    },\n    {\n        'NAME': 'django.contrib.auth.password_validation.MinimumLengthValidator',\n    },\n    {\n        'NAME': 'django.contrib.auth.password_validation.CommonPasswordValidator',\n    },",
+        "detail": "core.settings",
+        "documentation": {}
+    },
+    {
+        "label": "LANGUAGE_CODE",
+        "kind": 5,
+        "importPath": "core.settings",
+        "description": "core.settings",
+        "peekOfCode": "LANGUAGE_CODE = 'en-us'\nTIME_ZONE = 'UTC'\nUSE_I18N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/4.1/howto/static-files/\nSTATIC_URL = '/static/'\nSTATICFILES_DIRS = (\n    os.path.join(BASE_DIR, 'static'),\n)",
+        "detail": "core.settings",
+        "documentation": {}
+    },
+    {
+        "label": "TIME_ZONE",
+        "kind": 5,
+        "importPath": "core.settings",
+        "description": "core.settings",
+        "peekOfCode": "TIME_ZONE = 'UTC'\nUSE_I18N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/4.1/howto/static-files/\nSTATIC_URL = '/static/'\nSTATICFILES_DIRS = (\n    os.path.join(BASE_DIR, 'static'),\n)\nSTATICFILES_FINDERS=[",
+        "detail": "core.settings",
+        "documentation": {}
+    },
+    {
+        "label": "USE_I18N",
+        "kind": 5,
+        "importPath": "core.settings",
+        "description": "core.settings",
+        "peekOfCode": "USE_I18N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/4.1/howto/static-files/\nSTATIC_URL = '/static/'\nSTATICFILES_DIRS = (\n    os.path.join(BASE_DIR, 'static'),\n)\nSTATICFILES_FINDERS=[\n    'django.contrib.staticfiles.finders.FileSystemFinder',",
+        "detail": "core.settings",
+        "documentation": {}
+    },
+    {
+        "label": "USE_TZ",
+        "kind": 5,
+        "importPath": "core.settings",
+        "description": "core.settings",
+        "peekOfCode": "USE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/4.1/howto/static-files/\nSTATIC_URL = '/static/'\nSTATICFILES_DIRS = (\n    os.path.join(BASE_DIR, 'static'),\n)\nSTATICFILES_FINDERS=[\n    'django.contrib.staticfiles.finders.FileSystemFinder',\n    'django.contrib.staticfiles.finders.AppDirectoriesFinder',",
+        "detail": "core.settings",
+        "documentation": {}
+    },
+    {
+        "label": "STATIC_URL",
+        "kind": 5,
+        "importPath": "core.settings",
+        "description": "core.settings",
+        "peekOfCode": "STATIC_URL = '/static/'\nSTATICFILES_DIRS = (\n    os.path.join(BASE_DIR, 'static'),\n)\nSTATICFILES_FINDERS=[\n    'django.contrib.staticfiles.finders.FileSystemFinder',\n    'django.contrib.staticfiles.finders.AppDirectoriesFinder',\n]\n# Default primary key field type\n# https://docs.djangoproject.com/en/4.1/ref/settings/#default-auto-field",
+        "detail": "core.settings",
+        "documentation": {}
+    },
+    {
+        "label": "STATICFILES_DIRS",
+        "kind": 5,
+        "importPath": "core.settings",
+        "description": "core.settings",
+        "peekOfCode": "STATICFILES_DIRS = (\n    os.path.join(BASE_DIR, 'static'),\n)\nSTATICFILES_FINDERS=[\n    'django.contrib.staticfiles.finders.FileSystemFinder',\n    'django.contrib.staticfiles.finders.AppDirectoriesFinder',\n]\n# Default primary key field type\n# https://docs.djangoproject.com/en/4.1/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'",
+        "detail": "core.settings",
+        "documentation": {}
+    },
+    {
+        "label": "DEFAULT_AUTO_FIELD",
+        "kind": 5,
+        "importPath": "core.settings",
+        "description": "core.settings",
+        "peekOfCode": "DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'\nLOGIN_URL = \"/login/\"\nLOGIN_REDIRECT_URL = \"/home/\"\nLOGOUT_REDIRECT_URL = \"/login/\"\nMESSAGE_TAGS = {\n        messages.DEBUG: 'alert-secondary',\n        messages.INFO: 'alert-info',\n        messages.SUCCESS: 'alert-success',\n        messages.WARNING: 'alert-warning',\n        messages.ERROR: 'alert-danger',",
+        "detail": "core.settings",
+        "documentation": {}
+    },
+    {
+        "label": "LOGIN_URL",
+        "kind": 5,
+        "importPath": "core.settings",
+        "description": "core.settings",
+        "peekOfCode": "LOGIN_URL = \"/login/\"\nLOGIN_REDIRECT_URL = \"/home/\"\nLOGOUT_REDIRECT_URL = \"/login/\"\nMESSAGE_TAGS = {\n        messages.DEBUG: 'alert-secondary',\n        messages.INFO: 'alert-info',\n        messages.SUCCESS: 'alert-success',\n        messages.WARNING: 'alert-warning',\n        messages.ERROR: 'alert-danger',\n}",
+        "detail": "core.settings",
+        "documentation": {}
+    },
+    {
+        "label": "LOGIN_REDIRECT_URL",
+        "kind": 5,
+        "importPath": "core.settings",
+        "description": "core.settings",
+        "peekOfCode": "LOGIN_REDIRECT_URL = \"/home/\"\nLOGOUT_REDIRECT_URL = \"/login/\"\nMESSAGE_TAGS = {\n        messages.DEBUG: 'alert-secondary',\n        messages.INFO: 'alert-info',\n        messages.SUCCESS: 'alert-success',\n        messages.WARNING: 'alert-warning',\n        messages.ERROR: 'alert-danger',\n}\nCRISPY_ALLOWED_TEMPLATE_PACKS = \"bootstrap5\"",
+        "detail": "core.settings",
+        "documentation": {}
+    },
+    {
+        "label": "LOGOUT_REDIRECT_URL",
+        "kind": 5,
+        "importPath": "core.settings",
+        "description": "core.settings",
+        "peekOfCode": "LOGOUT_REDIRECT_URL = \"/login/\"\nMESSAGE_TAGS = {\n        messages.DEBUG: 'alert-secondary',\n        messages.INFO: 'alert-info',\n        messages.SUCCESS: 'alert-success',\n        messages.WARNING: 'alert-warning',\n        messages.ERROR: 'alert-danger',\n}\nCRISPY_ALLOWED_TEMPLATE_PACKS = \"bootstrap5\"\nCRISPY_TEMPLATE_PACK = \"bootstrap5\"",
+        "detail": "core.settings",
+        "documentation": {}
+    },
+    {
+        "label": "MESSAGE_TAGS",
+        "kind": 5,
+        "importPath": "core.settings",
+        "description": "core.settings",
+        "peekOfCode": "MESSAGE_TAGS = {\n        messages.DEBUG: 'alert-secondary',\n        messages.INFO: 'alert-info',\n        messages.SUCCESS: 'alert-success',\n        messages.WARNING: 'alert-warning',\n        messages.ERROR: 'alert-danger',\n}\nCRISPY_ALLOWED_TEMPLATE_PACKS = \"bootstrap5\"\nCRISPY_TEMPLATE_PACK = \"bootstrap5\"\nMESSAGE_STORAGE = 'django.contrib.messages.storage.cookie.CookieStorage'",
+        "detail": "core.settings",
+        "documentation": {}
+    },
+    {
+        "label": "CRISPY_ALLOWED_TEMPLATE_PACKS",
+        "kind": 5,
+        "importPath": "core.settings",
+        "description": "core.settings",
+        "peekOfCode": "CRISPY_ALLOWED_TEMPLATE_PACKS = \"bootstrap5\"\nCRISPY_TEMPLATE_PACK = \"bootstrap5\"\nMESSAGE_STORAGE = 'django.contrib.messages.storage.cookie.CookieStorage'",
+        "detail": "core.settings",
+        "documentation": {}
+    },
+    {
+        "label": "CRISPY_TEMPLATE_PACK",
+        "kind": 5,
+        "importPath": "core.settings",
+        "description": "core.settings",
+        "peekOfCode": "CRISPY_TEMPLATE_PACK = \"bootstrap5\"\nMESSAGE_STORAGE = 'django.contrib.messages.storage.cookie.CookieStorage'",
+        "detail": "core.settings",
+        "documentation": {}
+    },
+    {
+        "label": "MESSAGE_STORAGE",
+        "kind": 5,
+        "importPath": "core.settings",
+        "description": "core.settings",
+        "peekOfCode": "MESSAGE_STORAGE = 'django.contrib.messages.storage.cookie.CookieStorage'",
+        "detail": "core.settings",
+        "documentation": {}
+    },
+    {
+        "label": "urlpatterns",
+        "kind": 5,
+        "importPath": "core.urls",
+        "description": "core.urls",
+        "peekOfCode": "urlpatterns = [\n    path('login/', auth_views.LoginView.as_view(), name='login'),\n    path('logout/', auth_views.LogoutView.as_view(), name='logout'),\n    path('home/', views.home, name='home'),\n    path('ask/race/', views.ask_for_race, name='ask-for-race'),\n    path('race/list/', views.races_list, name='race-list'),\n    path('ask/intervention/', views.ask_for_intervention, name='ask-for-intervention'),\n    path('contact/', views.home, name='contact'),\n    path('password_change/', views.password_change, name='password_change'),\n    path('register/', views.register, name='register'),",
+        "detail": "core.urls",
+        "documentation": {}
+    },
+    {
+        "label": "application",
+        "kind": 5,
+        "importPath": "core.wsgi",
+        "description": "core.wsgi",
+        "peekOfCode": "application = get_wsgi_application()",
+        "detail": "core.wsgi",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "gpa_back.migrations.0001_initial",
+        "description": "gpa_back.migrations.0001_initial",
+        "peekOfCode": "class Migration(migrations.Migration):\n    initial = True\n    dependencies = [\n        migrations.swappable_dependency(settings.AUTH_USER_MODEL),\n    ]\n    operations = [\n        migrations.CreateModel(\n            name='Car',\n            fields=[\n                ('id', models.BigAutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),",
+        "detail": "gpa_back.migrations.0001_initial",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "gpa_back.migrations.0002_interventiontype_project_userrole_car_deleted_and_more",
+        "description": "gpa_back.migrations.0002_interventiontype_project_userrole_car_deleted_and_more",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        migrations.swappable_dependency(settings.AUTH_USER_MODEL),\n        ('contenttypes', '0002_remove_content_type_name'),\n        ('gpa_back', '0001_initial'),\n    ]\n    operations = [\n        migrations.CreateModel(\n            name='InterventionType',\n            fields=[",
+        "detail": "gpa_back.migrations.0002_interventiontype_project_userrole_car_deleted_and_more",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "gpa_back.migrations.0003_historicalintervention_project_and_more",
+        "description": "gpa_back.migrations.0003_historicalintervention_project_and_more",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        ('gpa_back', '0002_interventiontype_project_userrole_car_deleted_and_more'),\n    ]\n    operations = [\n        migrations.AddField(\n            model_name='historicalintervention',\n            name='project',\n            field=models.ForeignKey(blank=True, db_constraint=False, null=True, on_delete=django.db.models.deletion.DO_NOTHING, related_name='+', to='gpa_back.project', verbose_name=\"Projet de l'intervention\"),\n        ),",
+        "detail": "gpa_back.migrations.0003_historicalintervention_project_and_more",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "gpa_back.migrations.0004_alter_historicaluserprofil_role_and_more",
+        "description": "gpa_back.migrations.0004_alter_historicaluserprofil_role_and_more",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        ('gpa_back', '0003_historicalintervention_project_and_more'),\n    ]\n    operations = [\n        migrations.AlterField(\n            model_name='historicaluserprofil',\n            name='role',\n            field=models.ForeignKey(blank=True, db_constraint=False, null=True, on_delete=django.db.models.deletion.DO_NOTHING, related_name='+', to='gpa_back.userrole', verbose_name=\"Role de l'utilisateur\"),\n        ),",
+        "detail": "gpa_back.migrations.0004_alter_historicaluserprofil_role_and_more",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "gpa_back.migrations.0005_alter_car_options_alter_historicalcar_options_and_more",
+        "description": "gpa_back.migrations.0005_alter_car_options_alter_historicalcar_options_and_more",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        ('gpa_back', '0004_alter_historicaluserprofil_role_and_more'),\n    ]\n    operations = [\n        migrations.AlterModelOptions(\n            name='car',\n            options={'ordering': ['manufacturer'], 'verbose_name': 'Véhicule', 'verbose_name_plural': 'Véhicules'},\n        ),\n        migrations.AlterModelOptions(",
+        "detail": "gpa_back.migrations.0005_alter_car_options_alter_historicalcar_options_and_more",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "gpa_back.migrations.0006_historicalrace_destination_race_destination_and_more",
+        "description": "gpa_back.migrations.0006_historicalrace_destination_race_destination_and_more",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        ('gpa_back', '0005_alter_car_options_alter_historicalcar_options_and_more'),\n    ]\n    operations = [\n        migrations.AddField(\n            model_name='historicalrace',\n            name='destination',\n            field=models.CharField(blank=True, max_length=255, null=True),\n        ),",
+        "detail": "gpa_back.migrations.0006_historicalrace_destination_race_destination_and_more",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "gpa_back.migrations.0007_historicalrace_reason_race_reason",
+        "description": "gpa_back.migrations.0007_historicalrace_reason_race_reason",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        ('gpa_back', '0006_historicalrace_destination_race_destination_and_more'),\n    ]\n    operations = [\n        migrations.AddField(\n            model_name='historicalrace',\n            name='reason',\n            field=models.CharField(blank=True, max_length=255, null=True, verbose_name='Motif de la course'),\n        ),",
+        "detail": "gpa_back.migrations.0007_historicalrace_reason_race_reason",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "gpa_back.migrations.0008_historicalintervention_status_historicalrace_status_and_more",
+        "description": "gpa_back.migrations.0008_historicalintervention_status_historicalrace_status_and_more",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        ('gpa_back', '0007_historicalrace_reason_race_reason'),\n    ]\n    operations = [\n        migrations.AddField(\n            model_name='historicalintervention',\n            name='status',\n            field=models.CharField(blank=True, choices=[('APPROUVED', 'approuved'), ('REFUSED', 'refused'), ('PENDING', 'pending')], max_length=15, null=True),\n        ),",
+        "detail": "gpa_back.migrations.0008_historicalintervention_status_historicalrace_status_and_more",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "gpa_back.migrations.0009_alter_historicalintervention_status_and_more",
+        "description": "gpa_back.migrations.0009_alter_historicalintervention_status_and_more",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        ('gpa_back', '0008_historicalintervention_status_historicalrace_status_and_more'),\n    ]\n    operations = [\n        migrations.AlterField(\n            model_name='historicalintervention',\n            name='status',\n            field=models.CharField(blank=True, choices=[('APPROUVED', 'approuvé'), ('REFUSED', 'refusé'), ('PENDING', 'en attente')], max_length=15, null=True),\n        ),",
+        "detail": "gpa_back.migrations.0009_alter_historicalintervention_status_and_more",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "gpa_back.migrations.0010_alter_intervention_type",
+        "description": "gpa_back.migrations.0010_alter_intervention_type",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        ('gpa_back', '0009_alter_historicalintervention_status_and_more'),\n    ]\n    operations = [\n        migrations.AlterField(\n            model_name='intervention',\n            name='type',\n            field=models.ForeignKey(on_delete=django.db.models.deletion.CASCADE, to='gpa_back.interventiontype', verbose_name=\"Type de l'intervention\"),\n        ),",
+        "detail": "gpa_back.migrations.0010_alter_intervention_type",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "gpa_back.migrations.0011_alter_historicalintervention_status_and_more",
+        "description": "gpa_back.migrations.0011_alter_historicalintervention_status_and_more",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        ('gpa_back', '0010_alter_intervention_type'),\n    ]\n    operations = [\n        migrations.AlterField(\n            model_name='historicalintervention',\n            name='status',\n            field=models.CharField(blank=True, choices=[('APPROUVED', 'approuvé'), ('REFUSED', 'refusé'), ('PENDING', 'en attente')], default='PENDING', max_length=15, null=True),\n        ),",
+        "detail": "gpa_back.migrations.0011_alter_historicalintervention_status_and_more",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "gpa_back.migrations.0012_alter_race_applicant_alter_race_car_concerned_and_more",
+        "description": "gpa_back.migrations.0012_alter_race_applicant_alter_race_car_concerned_and_more",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        ('gpa_back', '0011_alter_historicalintervention_status_and_more'),\n    ]\n    operations = [\n        migrations.AlterField(\n            model_name='race',\n            name='applicant',\n            field=models.ForeignKey(blank=True, null=True, on_delete=django.db.models.deletion.CASCADE, related_name='RaceApplicant', to='gpa_back.userprofil', verbose_name='Demandeur de la course'),\n        ),",
+        "detail": "gpa_back.migrations.0012_alter_race_applicant_alter_race_car_concerned_and_more",
+        "documentation": {}
+    },
+    {
+        "label": "Car",
+        "kind": 6,
+        "importPath": "gpa_back.models.car",
+        "description": "gpa_back.models.car",
+        "peekOfCode": "class Car(SafeDeleteModel):\n    manufacturer = models.CharField(\n        max_length=255, blank=True, null=True, verbose_name=\"Marque / Fabriquant\")\n    serial_number = models.CharField(\n        max_length=255, verbose_name=\"Numéro Matricule\")\n    type = models.CharField(max_length=255, verbose_name=\"Type du véhicule\")\n    published = models.DateTimeField(\"Crée le\", auto_now_add=True)\n    updated = models.DateTimeField(\"Crée le\", auto_now=True)\n    history = HistoricalRecords()\n    class Meta:",
+        "detail": "gpa_back.models.car",
+        "documentation": {}
+    },
+    {
+        "label": "Document",
+        "kind": 6,
+        "importPath": "gpa_back.models.document",
+        "description": "gpa_back.models.document",
+        "peekOfCode": "class Document(SafeDeleteModel):\n    title = models.CharField(max_length=255, blank=True, null=True)\n    content_type = models.ForeignKey(ContentType, on_delete=models.CASCADE,related_name=\"documents_contenttype\")\n    object_id = models.PositiveIntegerField()\n    content_object = GenericForeignKey('content_type', 'object_id')\n    published = models.DateTimeField(\"Crée le\", auto_now_add=True)\n    updated = models.DateTimeField(\"Crée le\", auto_now=True)\n    def __str__(self):\n        return self.title\n    class Meta:",
+        "detail": "gpa_back.models.document",
+        "documentation": {}
+    },
+    {
+        "label": "fs",
+        "kind": 5,
+        "importPath": "gpa_back.models.document",
+        "description": "gpa_back.models.document",
+        "peekOfCode": "fs = FileSystemStorage(location=str(settings.BASE_DIR) +\n                       '/media/documents/')\nclass Document(SafeDeleteModel):\n    title = models.CharField(max_length=255, blank=True, null=True)\n    content_type = models.ForeignKey(ContentType, on_delete=models.CASCADE,related_name=\"documents_contenttype\")\n    object_id = models.PositiveIntegerField()\n    content_object = GenericForeignKey('content_type', 'object_id')\n    published = models.DateTimeField(\"Crée le\", auto_now_add=True)\n    updated = models.DateTimeField(\"Crée le\", auto_now=True)\n    def __str__(self):",
+        "detail": "gpa_back.models.document",
+        "documentation": {}
+    },
+    {
+        "label": "Intervention",
+        "kind": 6,
+        "importPath": "gpa_back.models.intervention",
+        "description": "gpa_back.models.intervention",
+        "peekOfCode": "class Intervention(SafeDeleteModel):\n    STATUS = (\n        ('APPROUVED', 'approuvé'),\n        ('REFUSED', 'refusé'),\n        ('PENDING', 'en attente'),\n    )\n    status = models.CharField(max_length=15, choices=STATUS,blank=True,null=True,default=\"PENDING\")\n    project = models.ForeignKey(\n        Project, on_delete=models.CASCADE, verbose_name=\"Projet de l'intervention\", blank=True, null=True)\n    applicant = models.ForeignKey(",
+        "detail": "gpa_back.models.intervention",
+        "documentation": {}
+    },
+    {
+        "label": "InterventionType",
+        "kind": 6,
+        "importPath": "gpa_back.models.intervention_type",
+        "description": "gpa_back.models.intervention_type",
+        "peekOfCode": "class InterventionType(SafeDeleteModel):\n    label = models.CharField(\"Nom type d'intervention\",\n                             max_length=255, null=True)\n    published = models.DateTimeField(\"Crée le\", auto_now_add=True)\n    updated = models.DateTimeField(\"Crée le\", auto_now=True)\n    history = HistoricalRecords()\n    class Meta:\n        db_table = 'intervention_types'\n        verbose_name = 'Type d\\'Intervention'\n        verbose_name_plural = 'Types d\\'Interventions'",
+        "detail": "gpa_back.models.intervention_type",
+        "documentation": {}
+    },
+    {
+        "label": "Project",
+        "kind": 6,
+        "importPath": "gpa_back.models.project",
+        "description": "gpa_back.models.project",
+        "peekOfCode": "class Project(SafeDeleteModel):\n    label = models.CharField(max_length=255, blank=True, null=True)\n    documents = GenericRelation(Document)\n    published = models.DateTimeField(\"Crée le\", auto_now_add=True)\n    updated = models.DateTimeField(\"Crée le\", auto_now=True)\n    history = HistoricalRecords()\n    class Meta:\n        db_table = 'projects'\n        verbose_name = 'Projet'\n        verbose_name_plural = 'Projets'",
+        "detail": "gpa_back.models.project",
+        "documentation": {}
+    },
+    {
+        "label": "fs",
+        "kind": 5,
+        "importPath": "gpa_back.models.project",
+        "description": "gpa_back.models.project",
+        "peekOfCode": "fs = FileSystemStorage(location=str(settings.BASE_DIR) +\n                       '/media/documents/')\nclass Project(SafeDeleteModel):\n    label = models.CharField(max_length=255, blank=True, null=True)\n    documents = GenericRelation(Document)\n    published = models.DateTimeField(\"Crée le\", auto_now_add=True)\n    updated = models.DateTimeField(\"Crée le\", auto_now=True)\n    history = HistoricalRecords()\n    class Meta:\n        db_table = 'projects'",
+        "detail": "gpa_back.models.project",
+        "documentation": {}
+    },
+    {
+        "label": "Race",
+        "kind": 6,
+        "importPath": "gpa_back.models.race",
+        "description": "gpa_back.models.race",
+        "peekOfCode": "class Race(SafeDeleteModel):\n    STATUS = (\n        ('APPROUVED', 'approuvé'),\n        ('REFUSED', 'refusé'),\n        ('PENDING', 'en attente'),\n    )\n    status = models.CharField(max_length=15, choices=STATUS,blank=True,null=True,default=\"PENDING\")\n    project = models.ForeignKey(\n        Project, on_delete=models.CASCADE, verbose_name=\"Projet concerné\", blank=True, null=True)\n    applicant = models.ForeignKey(",
+        "detail": "gpa_back.models.race",
+        "documentation": {}
+    },
+    {
+        "label": "UserRole",
+        "kind": 6,
+        "importPath": "gpa_back.models.user_profil",
+        "description": "gpa_back.models.user_profil",
+        "peekOfCode": "class UserRole(SafeDeleteModel):\n    label = models.CharField(\"Role\", max_length=255, blank=True)\n    history = HistoricalRecords()\n    class Meta:\n        db_table = 'user_roles'\n        verbose_name = 'Roles utilisateurs'\n        verbose_name_plural = 'Roles utilisateurs'\n        ordering = ['label']\n    def __str__(self):\n        return f\"{self.label}\"",
+        "detail": "gpa_back.models.user_profil",
+        "documentation": {}
+    },
+    {
+        "label": "UserProfil",
+        "kind": 6,
+        "importPath": "gpa_back.models.user_profil",
+        "description": "gpa_back.models.user_profil",
+        "peekOfCode": "class UserProfil(SafeDeleteModel):\n    user = models.ForeignKey(User, on_delete=models.CASCADE)\n    documents = GenericRelation(Document)\n    history = HistoricalRecords()\n    role = models.ForeignKey(\n        UserRole, verbose_name=\"Role de l'utilisateur\", on_delete=models.CASCADE)\n    class Meta:\n        db_table = 'user_profil'\n        verbose_name = 'Profil utilisateur'\n        verbose_name_plural = 'Profils utilisateurs'",
+        "detail": "gpa_back.models.user_profil",
+        "documentation": {}
+    },
+    {
+        "label": "GpaBackConfig",
+        "kind": 6,
+        "importPath": "gpa_back.apps",
+        "description": "gpa_back.apps",
+        "peekOfCode": "class GpaBackConfig(AppConfig):\n    default_auto_field = 'django.db.models.BigAutoField'\n    name = 'gpa_back'",
+        "detail": "gpa_back.apps",
+        "documentation": {}
+    },
+    {
+        "label": "group_required",
+        "kind": 2,
+        "importPath": "gpa_back.decorators",
+        "description": "gpa_back.decorators",
+        "peekOfCode": "def group_required(*group_names):\n    \"\"\"Requires user membership in at least one of the groups passed in.\"\"\"\n    def in_groups(u:User):\n        if u.is_authenticated:\n            if bool(u.groups.filter(name__in=group_names)) | u.is_superuser:\n                return True\n        return False\n    return user_passes_test(in_groups, login_url='home')",
+        "detail": "gpa_back.decorators",
+        "documentation": {}
+    },
+    {
+        "label": "RaceForm",
+        "kind": 6,
+        "importPath": "gpa_back.forms",
+        "description": "gpa_back.forms",
+        "peekOfCode": "class RaceForm(ModelForm):\n    def __init__(self, *args, **kwargs):\n        super(RaceForm, self).__init__(*args, **kwargs)\n        self.helper = FormHelper(self)\n        self.helper.layout = Layout(\n            Fieldset(\n                \"Demander une Course\",\n                'project',\n                'applicant',\n            ),",
+        "detail": "gpa_back.forms",
+        "documentation": {}
+    },
+    {
+        "label": "InterventionForm",
+        "kind": 6,
+        "importPath": "gpa_back.forms",
+        "description": "gpa_back.forms",
+        "peekOfCode": "class InterventionForm(ModelForm):\n    def __init__(self, *args, **kwargs):\n        super(InterventionForm, self).__init__(*args, **kwargs)\n        self.helper = FormHelper(self)\n        self.helper.layout = Layout(\n            Fieldset(\n                \"Demander une intervention\",\n                'project',\n                'applicant',\n            ),",
+        "detail": "gpa_back.forms",
+        "documentation": {}
+    },
+    {
+        "label": "home",
+        "kind": 2,
+        "importPath": "gpa_back.views",
+        "description": "gpa_back.views",
+        "peekOfCode": "def home(request:HttpRequest):\n    messages.add_message(request, messages.INFO,  'Bienvenue, %s ' % request.user.username)\n    if bool(request.user.groups.filter(name=\"RESPONSABLE\")) | request.user.is_superuser:\n        races_pending= Race.objects.filter(status=\"PENDING\").all()\n        interventions_pending= Intervention.objects.filter(status=\"PENDING\").all()\n        context={\"races\": races_pending,'interventions':interventions_pending}\n        template=\"dashboard.html\"\n        print(\"ACCOUNTABLE CTX :{}\".format(context))\n        return render(request, template, context)\n    else:",
+        "detail": "gpa_back.views",
+        "documentation": {}
+    },
+    {
+        "label": "races_list",
+        "kind": 2,
+        "importPath": "gpa_back.views",
+        "description": "gpa_back.views",
+        "peekOfCode": "def races_list(request:HttpRequest): \n    races= Race.objects.all().order_by('-status')\n    context={\"races\": races}\n    template=\"race_list.html\"\n    return render(request, template, context)\n@login_required\n@group_required(\"CHEF PROJET\")\ndef ask_for_race(request:HttpRequest):\n    if request.method == 'POST':\n        # create a form instance and populate it with data from the request:",
+        "detail": "gpa_back.views",
+        "documentation": {}
+    },
+    {
+        "label": "ask_for_race",
+        "kind": 2,
+        "importPath": "gpa_back.views",
+        "description": "gpa_back.views",
+        "peekOfCode": "def ask_for_race(request:HttpRequest):\n    if request.method == 'POST':\n        # create a form instance and populate it with data from the request:\n        form = RaceForm(request.POST)\n        # check whether it's valid:\n        if form.is_valid():\n            # process the data in form.cleaned_data as required\n            # ...\n            # redirect to a new URL:\n            form.cleaned_data[\"status\"]=\"PENDING\"",
+        "detail": "gpa_back.views",
+        "documentation": {}
+    },
+    {
+        "label": "ask_for_intervention",
+        "kind": 2,
+        "importPath": "gpa_back.views",
+        "description": "gpa_back.views",
+        "peekOfCode": "def ask_for_intervention(request:HttpRequest):\n    if request.method == 'POST':\n        # create a form instance and populate it with data from the request:\n        form = InterventionForm(request.POST)\n        # check whether it's valid:\n        if form.is_valid():\n            # process the data in form.cleaned_data as required\n            # ...\n            # redirect to a new URL:\n            form.cleaned_data[\"status\"]=\"PENDING\"",
+        "detail": "gpa_back.views",
+        "documentation": {}
+    },
+    {
+        "label": "password_change",
+        "kind": 2,
+        "importPath": "gpa_back.views",
+        "description": "gpa_back.views",
+        "peekOfCode": "def password_change(request:HttpRequest):\n    return render(request, \"dashboard.html\", {})\ndef register(request:HttpRequest):\n    if request.method == 'POST':\n        form = UserCreationForm(request.POST)\n        if form.is_valid():\n            form.save()\n            username = form.cleaned_data.get('username')\n            password = form.cleaned_data.get('password1')\n            user = authenticate(username=username, password=password)",
+        "detail": "gpa_back.views",
+        "documentation": {}
+    },
+    {
+        "label": "register",
+        "kind": 2,
+        "importPath": "gpa_back.views",
+        "description": "gpa_back.views",
+        "peekOfCode": "def register(request:HttpRequest):\n    if request.method == 'POST':\n        form = UserCreationForm(request.POST)\n        if form.is_valid():\n            form.save()\n            username = form.cleaned_data.get('username')\n            password = form.cleaned_data.get('password1')\n            user = authenticate(username=username, password=password)\n            login(request, user)\n            return redirect('home')",
+        "detail": "gpa_back.views",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "manage",
+        "description": "manage",
+        "peekOfCode": "def main():\n    \"\"\"Run administrative tasks.\"\"\"\n    os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'core.settings')\n    try:\n        from django.core.management import execute_from_command_line\n    except ImportError as exc:\n        raise ImportError(\n            \"Couldn't import Django. Are you sure it's installed and \"\n            \"available on your PYTHONPATH environment variable? Did you \"\n            \"forget to activate a virtual environment?\"",
+        "detail": "manage",
+        "documentation": {}
+    }
+]

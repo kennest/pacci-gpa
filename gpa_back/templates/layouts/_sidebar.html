@@ -1,0 +1,65 @@
+{% load static i18n %}
+{% load i18n %}
+{% load static %}
+<!-- Sidebar -->
+<div class="border-right alert-info" id="sidebar-wrapper">
+    
+    <div class="list-group card list-group-flush">
+      <a href="{% url 'home' %}" class="nav-link"><i class="fa fa-home" aria-hidden="true"></i>
+      <span class="sr-only">(current)</span>Accueil</a>
+      {% if user.is_authenticated %}
+          <a id="ecrfmainmenu" class="nav-link" data-bs-target="#ecrfsubmenu"  data-bs-toggle="collapse"><i class="fa fa-book" aria-hidden="true"></i>
+            Faire<i class="fa fa-angle-down" style="float:right;"></i></a>
+              <div id="ecrfsubmenu" class="panel-collapse collapse">
+                  <ul  class="list-unstyled show btn-toggle-nav">
+                    <li><a class="nav-link sub-menu" href="{% url 'ask-for-race' %}">
+                    <i class="fa fa-folder-open" aria-hidden="true"></i>  Une demande de course</a></li>
+                    <li><a class="nav-link sub-menu" href="{% url 'ask-for-intervention' %}">
+                    <i class="fa fa-folder-open" aria-hidden="true"></i>  Une demande d'intervention</a></li>
+                  </ul>
+              </div>
+            {% comment %} <a class="nav-link" href="{% url 'export:export_redcap' %}"><i class="fa fa-upload" aria-hidden="true"></i> Export RedCap</a> {% endcomment %}
+          {% if user.is_superuser %}
+            <a class="nav-link" href="/admin"><i class="fa fa-database" aria-hidden="true"></i>
+            Administration Django</a>
+          {% endif %}
+      {% endif %}
+            <a class="nav-link" href="{% url 'home' %}"><i class="fa fa-address-card-o" aria-hidden="true"></i>
+        Contact</a>
+    </div>
+    
+    <div style="padding-left:12px; font-weight:bold; position:absolute; bottom:40px;"><img class="fit-picture align-content-center" src="https://www.daftra.com/themed/multi_language/images/industries/auto_sales/page-banner.svg" alt="form exist" style="width:42px;height:48px;"><br>{{ environment }}</div>
+   
+    <span style="padding-left:12px; position:absolute; bottom:10px;">© {% now 'Y' %} Copyright : <a href="http://mereva.isped.u-bordeaux2.fr" target="_blank" style="color:black;"> Mereva</a></span>
+
+</div>
+{% comment %} <ul class="list-unstyled ps-0">
+  <li class="mb-1">
+    <button class="btn btn-toggle align-items-right rounded collapsed" data-bs-toggle="collapse" data-bs-target="#dashboard-collapse" aria-expanded="false"><i class="fa-solid fa-cog"></i>Actions</button>
+    <div class="collapse" id="dashboard-collapse">
+      <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 ">
+        <li>
+          <a href="{% url 'ask-for-race'%}" class="link-dark rounded"><i class="fa-solid fa-road fa-xl"></i>Faire une demande une course</a>
+        </li>
+        <li>
+          <a href="{% url 'ask-for-intervention' %}" class="link-dark rounded"><i class="fa-solid fa-hammer fa-xl"></i>faire une demande une intervention</a>
+        </li>
+      </ul>
+    </div>
+  </li>
+  <li class="border-top my-3"></li>
+  <li class="mb-3">
+    <button class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle="collapse" data-bs-target="#account-collapse" aria-expanded="false"><i class="fa-solid fa-file-export"></i>Export</button>
+    <div class="collapse" id="account-collapse" style="">
+      <ul class="btn-toggle-nav list-unstyled">
+        <li>
+          <a href="#" class="link-dark rounded"><i class="fa-solid fa-file-csv fa-xl"></i>CSV</a>
+        </li>
+        <li>
+          <a href="#" class="link-dark rounded"><i class="fa-sharp fa-solid fa-file-excel fa-xl"></i>Excel</a>
+        </li>
+        
+      </ul>
+    </div>
+  </li>
+</ul> {% endcomment %}
