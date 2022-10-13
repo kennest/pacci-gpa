@@ -17,12 +17,14 @@ from django.contrib import admin
 from django.urls import path,include
 from django.contrib.auth import views as auth_views
 from gpa_back import views
+from gpa_back.views import SearchableRaceListView
 
 urlpatterns = [
     path('login/', auth_views.LoginView.as_view(), name='login'),
     path('logout/', auth_views.LogoutView.as_view(), name='logout'),
     path('home/', views.home, name='home'),
     path('ask/race/', views.ask_for_race, name='ask-for-race'),
+    path('ask/race/search-list/', SearchableRaceListView.as_view(), name='race-search-list'),
     path('race/list/', views.races_list, name='race-list'),
     path('ask/intervention/', views.ask_for_intervention, name='ask-for-intervention'),
     path('contact/', views.home, name='contact'),

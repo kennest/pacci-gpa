@@ -2,11 +2,9 @@
 {% load i18n %}
 {% load static %}
 <!-- Sidebar -->
-<div class="border-right" id="sidebar-wrapper">
+<div class="border-right alert-info" id="sidebar-wrapper">
     
-  <div class="sidebar-heading">GPA </div>
-
-    <div class="list-group list-group-flush">
+    <div class="list-group card list-group-flush">
       <a href="{% url 'home' %}" class="nav-link"><i class="fa fa-home" aria-hidden="true"></i>
       <span class="sr-only">(current)</span>Accueil</a>
       {% if user.is_authenticated %}
@@ -14,7 +12,7 @@
             Faire<i class="fa fa-angle-down" style="float:right;"></i></a>
               <div id="ecrfsubmenu" class="panel-collapse collapse">
                   <ul  class="list-unstyled show btn-toggle-nav">
-                    <li><a class="nav-link sub-menu" href="{% url 'ask-for-race'%}">
+                    <li><a class="nav-link sub-menu" href="{% url 'ask-for-race' %}">
                     <i class="fa fa-folder-open" aria-hidden="true"></i>  Une demande de course</a></li>
                     <li><a class="nav-link sub-menu" href="{% url 'ask-for-intervention' %}">
                     <i class="fa fa-folder-open" aria-hidden="true"></i>  Une demande d'intervention</a></li>
@@ -30,7 +28,7 @@
         Contact</a>
     </div>
     
-    <div style="padding-left:12px; font-weight:bold; position:absolute; bottom:40px;"><img class="fit-picture" src="{% static 'images/logo_alima.png' %}" alt="form exist" style="width:42px;height:48px;"><br>{{ environment }}</div>
+    <div style="padding-left:12px; font-weight:bold; position:absolute; bottom:40px;"><img class="fit-picture align-content-center" src="https://www.daftra.com/themed/multi_language/images/industries/auto_sales/page-banner.svg" alt="form exist" style="width:42px;height:48px;"><br>{{ environment }}</div>
    
     <span style="padding-left:12px; position:absolute; bottom:10px;">© {% now 'Y' %} Copyright : <a href="http://mereva.isped.u-bordeaux2.fr" target="_blank" style="color:black;"> Mereva</a></span>
 

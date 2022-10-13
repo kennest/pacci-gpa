@@ -5,6 +5,7 @@
 $(document).ready(function(){
         var ctxLine = document.getElementById('lineChart').getContext('2d');
         var ctxBar = document.getElementById('barChart').getContext('2d');
+        var ctxPie = document.getElementById('pieChart').getContext('2d');
         var lineChart = new Chart(ctxLine, {
             type: 'line',
             data: {
@@ -41,7 +42,7 @@ $(document).ready(function(){
                     }
                 }
             }
-});
+            });
 var barChart = new Chart(ctxBar, {
   type: 'bar',
   data: {
@@ -79,6 +80,36 @@ var barChart = new Chart(ctxBar, {
       }
   }
 });
+
+var pieChart = new Chart(ctxPie, {
+  type: 'pie',
+  data: {
+      
+      labels: ["Mercedes","Hyundai","Foton"], //loop through queryset, 
+      datasets: [{
+          label: 'Véhicule les plus sollicité',
+          data: [65, 59, 80],
+          backgroundColor: [
+              'rgba(255, 99, 132, 0.2)', 
+              'rgba(54, 162, 235, 0.2)',
+              'rgba(255, 206, 86, 0.2)',
+          ],
+          borderColor: [
+              'rgba(255, 99, 132, 1)',
+              'rgba(54, 162, 235, 1)',
+              'rgba(255, 206, 86, 1)', 
+          ],
+          borderWidth: 1
+      }]
+  },
+  options: {
+      scales: {
+          y: {
+              beginAtZero: true
+          }
+      }
+  }
+});
     });
   </script>
 {% endblock scripts %}
@@ -86,17 +117,21 @@ var barChart = new Chart(ctxBar, {
   <section>
     <div class="container-fluid">
       <div class="row">
-        <div class="col-3 ">{% include "layouts/_sidebar.html" %}</div>
+        <div class="col-3">{% include "layouts/_sidebar.html" %}</div>
         <div class="col-md-9 ">
-          <div class="divider"></div>
           <div class="container-fluid">
             <div class="row">
-              <div class="col-12">
-                <div class="row">
-                  <div class="col-6">{% include "layouts/_races.html" %}</div>
-                  <div class="col-6">{% include "layouts/_interventions.html" %}</div>
+              <div class="col-6">{% include "layouts/_races.html" %}</div>
+              <div class="col-6">{% include "layouts/_interventions.html" %}</div>
+            </div>
+            <div class="row">
+              <div class="row">
+                <div class="col-6">
+                  <canvas id="pieChart" width="400" height="100"></canvas>
                 </div>
-                <canvas id="lineChart" width="400" height="100"></canvas>
+                <div class="col-6">
+                  <canvas id="lineChart" width="400" height="400"></canvas>
+                </div>
               </div>
               <div class="col-12">
                 <canvas id="barChart" width="400" height="100"></canvas>

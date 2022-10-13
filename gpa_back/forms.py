@@ -3,6 +3,7 @@ from gpa_back.models import Race,Intervention
 from crispy_forms.helper import FormHelper
 from crispy_forms.layout import Layout, Fieldset, Submit,Row,Column
 
+
 # Create the form class.
 class RaceForm(ModelForm):
     def __init__(self, *args, **kwargs):
