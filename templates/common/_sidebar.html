@@ -1,0 +1,158 @@
+{% load static i18n %}
+{% load i18n %}
+{% load static %}
+<!-- partial:partials/_sidebar.html -->
+        <nav class="sidebar">
+            <div class="sidebar-header">
+                <a href="#" class="sidebar-brand">
+                    PAC-CI<span>GPA</span>
+                </a>
+                <div class="sidebar-toggler not-active">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+            <div class="sidebar-body">
+                <ul class="nav">
+                    <li class="nav-item nav-category">Main</li>
+                    <li class="nav-item">
+                        <a href="dashboard.html" class="nav-link">
+                            <i class="link-icon" data-feather="box"></i>
+                            <span class="link-title">Tableau de bord</span>
+                        </a>
+                    </li>
+                    <li class="nav-item nav-category">Composants</li>
+                    <li class="nav-item">
+                        <a class="nav-link" data-bs-toggle="collapse" href="#uiComponents" role="button"
+                           aria-expanded="false" aria-controls="uiComponents">
+                            <i class="link-icon" data-feather="git-merge"></i>
+                            <span class="link-title">Courses</span>
+                            <i class="link-arrow" data-feather="chevron-down"></i>
+                        </a>
+                        <div class="collapse" id="uiComponents">
+                            <ul class="nav sub-menu">
+                                <li class="nav-item">
+                                    <a href="{% url 'race-list' %}" class="nav-link">Liste</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="pages/ui-components/alerts.html" class="nav-link">Etats</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="pages/ui-components/badges.html" class="nav-link">Export</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" data-bs-toggle="collapse" href="#advancedUI" role="button"
+                           aria-expanded="false"
+                           aria-controls="advancedUI">
+                            <i class="link-icon" data-feather="tool"></i>
+                            <span class="link-title">Interventions</span>
+                            <i class="link-arrow" data-feather="chevron-down"></i>
+                        </a>
+                        <div class="collapse" id="advancedUI">
+                            <ul class="nav sub-menu">
+                                <li class="nav-item">
+                                    <a href="pages/ui-components/accordion.html" class="nav-link">Liste</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="pages/ui-components/alerts.html" class="nav-link">Etats</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="pages/ui-components/badges.html" class="nav-link">Export</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" data-bs-toggle="collapse" href="#forms" role="button" aria-expanded="false"
+                           aria-controls="forms">
+                            <i class="link-icon" data-feather="truck"></i>
+                            <span class="link-title">Véhicules</span>
+                            <i class="link-arrow" data-feather="chevron-down"></i>
+                        </a>
+                        <div class="collapse" id="forms">
+                            <ul class="nav sub-menu">
+                                <li class="nav-item">
+                                    <a href="pages/ui-components/accordion.html" class="nav-link">Liste</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="pages/ui-components/alerts.html" class="nav-link">Etats</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="pages/ui-components/badges.html" class="nav-link">Export</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" data-bs-toggle="collapse" href="#charts" role="button" aria-expanded="false"
+                           aria-controls="charts">
+                            <i class="link-icon" data-feather="user-check"></i>
+                            <span class="link-title">Coursiers</span>
+                            <i class="link-arrow" data-feather="chevron-down"></i>
+                        </a>
+                        <div class="collapse" id="charts">
+                            <ul class="nav sub-menu">
+                                <li class="nav-item">
+                                    <a href="pages/ui-components/accordion.html" class="nav-link">Liste</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="pages/ui-components/alerts.html" class="nav-link">Etats</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="pages/ui-components/badges.html" class="nav-link">Export</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" data-bs-toggle="collapse" href="#tables" role="button" aria-expanded="false"
+                           aria-controls="tables">
+                            <i class="link-icon" data-feather="layout"></i>
+                            <span class="link-title">Projets</span>
+                            <i class="link-arrow" data-feather="chevron-down"></i>
+                        </a>
+                        <div class="collapse" id="tables">
+                            <ul class="nav sub-menu">
+                                <li class="nav-item">
+                                    <a href="pages/ui-components/accordion.html" class="nav-link">Liste</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="pages/ui-components/alerts.html" class="nav-link">Etats</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="pages/ui-components/badges.html" class="nav-link">Export</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <nav class="settings-sidebar">
+            <div class="sidebar-body">
+                <a href="#" class="settings-sidebar-toggler">
+                    <i data-feather="settings"></i>
+                </a>
+                <h6 class="text-muted mb-2">Sidebar:</h6>
+                <div class="mb-3 pb-3 border-bottom">
+                    <div class="form-check form-check-inline">
+                        <input type="radio" class="form-check-input" name="sidebarThemeSettings" id="sidebarLight"
+                               value="sidebar-light" checked>
+                        <label class="form-check-label" for="sidebarLight">
+                            Light
+                        </label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                        <input type="radio" class="form-check-input" name="sidebarThemeSettings" id="sidebarDark"
+                               value="sidebar-dark">
+                        <label class="form-check-label" for="sidebarDark">
+                            Dark
+                        </label>
+                    </div>
+                </div>
+            </div>
+        </nav>

@@ -4,21 +4,19 @@ from django.contrib.auth import login, authenticate
 from django.contrib.auth.forms import UserCreationForm
 from django.contrib.auth.decorators import login_required
 from .decorators import group_required
-from .forms import RaceForm, InterventionForm
+from .forms import InterventionForm
 from django.contrib import messages
 from django.http import HttpRequest
 from .models import Intervention, Race
-from extra_views import FormSetView, ModelFormSetView, SearchableListMixin
+from extra_views import SearchableListMixin
 from .forms import RaceForm
 from django.views.generic import ListView
 
 
 # Views
-
-
 @login_required
 def home(request: HttpRequest):
-    messages.add_message(request, messages.INFO, 'Bienvenue, %s ' % request.user.username)
+    messages.add_message(request, messages.SUCCESS, 'Bienvenue, %s ' % request.user.username)
     if bool(request.user.groups.filter(name="RESPONSABLE")) | request.user.is_superuser:
         races_pending = Race.objects.filter(status="PENDING").all()
         interventions_pending = Intervention.objects.filter(status="PENDING").all()

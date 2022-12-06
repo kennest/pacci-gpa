@@ -1,0 +1,8 @@
+{% for message in messages %}
+    <div class="container-fluid">
+        <div class="alert {{ message.tags }} alert-dismissible show" role="alert">
+            <strong>{{ message|safe }}</strong>
+
+        </div>
+    </div>
+{% endfor %}

@@ -1,59 +1,79 @@
 {% extends "registration/base.html" %}
+{% block scripts %}
+    <script>
+        // jquery function
+        $(document).ready(function () {
+            $(".table").dataTable();
+        });
+    </script>
+{% endblock scripts %}
 {% block content %}
     <section>
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col-3 ">{% include "layouts/_sidebar.html" %}</div>
-                <div class="col-md-9 ">
-                    <div class="container card">
-                        {% if races %}
-                            <table class="table table-striped caption-top table-responsive">
-                                <caption>Liste des demandes de course</caption>
-                                <thead>
-                                    <tr>
-                                        <th scope="col">#</th>
-                                        <th scope="col">Demandeur de la course</th>
-                                        <th scope="col">Projet</th>
-                                        <th scope="col">Destination</th>
-                                        <th scope="col">Motif de la course</th>
-                                        <th scope="col">Date de départ</th>
-                                        <th scope="col">Date d'arrivée</th>
-                                        <th scope="col">Statut</th>
-                                        <th scope="col">Actions</th>
-                                    </tr>
-                                </thead>
-                                <tbody>
-                                    {% for r in races %}
-                                        <tr>
-                                            <th scope="row">{{ r.id }}</th>
-                                            <td>{{ r.applicant }}</td>
-                                            <td>{{ r.project }}</td>
-                                            <td>{{ r.destination }}</td>
-                                            <td>{{ r.reason }}</td>
-                                            <td>{{ r.begin_date }}</td>
-                                            <td>{{ r.end_date }}</td>
-                                            <td>
-                                                {% if r.status == "PENDING" %}
-                                                    <span class="badge rounded-pill bg-warning">{{ r.status }}</span>
-                                                {% else %}
-                                                    <span class="badge rounded-pill bg-success">{{ r.status }}</span>
-                                                {% endif %}
-                                            </td>
-                                            <td>
-                                                {% if r.status == "PENDING" %}
-                                                    <a href="#" class="btn btn-info btn-sm">Traiter</a>
-                                                {% else %}
-                                                    <a href="#" class="btn btn-danger btn-sm">Revoquer</a>
-                                                {% endif %}
-                                            </td>
-                                        </tr>
-                                    {% endfor %}
-                                </tbody>
-                            </table>
-                        {% endif %}
+        <div class="page-wrapper">
+            {% include "common/_sidebar.html" %}
+            {% include 'common/_navbar_top.html' %}
+            <div class="page-content">
+                <div class="d-flex justify-content-between align-items-center flex-wrap grid-margin">
+                    <div>
+                        <h4 class="mb-3 mb-md-0 text-uppercase">Liste des courses effectuées</h4>
+                    </div>
+                    <div class="d-flex align-items-center flex-wrap text-nowrap">
+                        <button type="button" class="btn btn-outline-primary btn-icon-text me-2 mb-2 mb-md-0">
+                            <i class="btn-icon-prepend" data-feather="printer"></i>
+                            Imprimer
+                        </button>
+                        <button type="button" class="btn btn-primary btn-icon-text mb-2 mb-md-0">
+                            <i class="btn-icon-prepend" data-feather="plus"></i>
+                            Ajouter
+                        </button>
                     </div>
                 </div>
+                {% if races %}
+                    <table class="table table-striped caption-top table-responsive">
+                        <thead>
+                        <tr>
+                            <th scope="col">#</th>
+                            <th scope="col">Demandeur de la course</th>
+                            <th scope="col">Projet</th>
+                            <th scope="col">Destination</th>
+                            <th scope="col">Motif de la course</th>
+                            <th scope="col">Date de départ</th>
+                            <th scope="col">Date d'arrivée</th>
+                            <th scope="col">Statut</th>
+                            <th scope="col">Actions</th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                        {% for r in races %}
+                            <tr>
+                                <th scope="row">{{ r.id }}</th>
+                                <td>{{ r.applicant }}</td>
+                                <td>{{ r.project }}</td>
+                                <td>{{ r.destination }}</td>
+                                <td>{{ r.reason }}</td>
+                                <td>{{ r.begin_date }}</td>
+                                <td>{{ r.end_date }}</td>
+                                <td>
+                                    {% if r.status == "PENDING" %}
+                                        <span class="badge rounded-pill bg-warning">{{ r.status }}</span>
+                                    {% else %}
+                                        <span class="badge rounded-pill bg-success">{{ r.status }}</span>
+                                    {% endif %}
+                                </td>
+                                <td>
+                                    {% if r.status == "PENDING" %}
+                                        <a href="#" class="btn btn-info btn-sm">Traiter</a>
+                                    {% else %}
+                                        <a href="#" class="btn btn-danger btn-sm">Revoquer</a>
+                                    {% endif %}
+                                </td>
+                            </tr>
+                        {% endfor %}
+                        </tbody>
+                    </table>
+                {% endif %}
             </div>
+            {% include 'common/_footer.html' %}
         </div>
     </section>
 {% endblock content %}

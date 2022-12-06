@@ -1,38 +1,86 @@
 {% load static %}
 {% load static i18n %}
-<html >
-    <head>
-        <title>GPA | PACCI</title>
+<!DOCTYPE html>
+<!--
+Template Name: NobleUI - HTML Bootstrap 5 Admin Dashboard Template
+Author: NobleUI
+Website: https://www.nobleui.com
+Portfolio: https://themeforest.net/user/nobleui/portfolio
+Contact: nobleui123@gmail.com
+Purchase: https://1.envato.market/nobleui_admin
+License: For each use you must have a valid license purchased only from above link in order to legally use the theme for your project.
+-->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="description" content="Responsive HTML Admin Dashboard Template based on Bootstrap 5">
+    <meta name="author" content="NobleUI">
+    <meta name="keywords"
+          content="nobleui, bootstrap, bootstrap 5, bootstrap5, admin, dashboard, template, responsive, css, sass, html, theme, front-end, ui kit, web">
 
-        <!--Chart js-->
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.9.1/chart.min.js" integrity="sha512-ElRFoEQdI5Ht6kZvyzXhYG9NqjtkmlkfYk0wr6wHxU9JEHakS7UJZNeml5ALk+8IKlU6jDgMabC3vkumRokgJA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-        <link rel="stylesheet"
-              href="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.8.0/Chart.min.css"
-              integrity="sha256-aa0xaJgmK/X74WM224KMQeNQC2xYKwlAt08oZqjeF0E="
-              crossorigin="anonymous"/>
-        <!-- jQuery -->
-        <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
-        <!-- CSS only -->
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
-              rel="stylesheet"
-              integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
-              crossorigin="anonymous"/>
-        {% comment %} <link rel="stylesheet" type="text/css" href="{% static 'css/style.css' %}"/> {% endcomment %}
-        {% comment %} <link rel="stylesheet"
-              type="text/css"
-              href="{% static 'css/simple-sidebar.css' %}"/> {% endcomment %}
-        <script src="https://kit.fontawesome.com/65de9e5f8b.js" crossorigin="anonymous"></script>
-    </head>
-    <body>
-        {% block scripts %}
-        {% endblock scripts %}
-        {% include "layouts/_nav.html" %}
-        {% include "layouts/_message.html" %}
-        {% block content %}
-        {% endblock content %}
-        <!-- JS, Popper.js, and jQuery -->
-        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
-    </body>
+    <title>Parc Auto - Gestion de Parc Auto</title>
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+    <!-- End fonts -->
+
+    <!-- core:css -->
+    <link rel="stylesheet" href="{% static 'dashboard/vendors/core/core.css' %}">
+    <link rel="stylesheet" href="{% static 'dashboard/vendors/datatables.net-bs5/dataTables.bootstrap5.css' %}">
+    <!-- endinject -->
+
+    <!-- Plugin css for this page -->
+    <link rel="stylesheet" href="{% static 'dashboard/vendors/bootstrap-datepicker/bootstrap-datepicker.min.css' %}">
+    <!-- End plugin css for this page -->
+
+    <!-- inject:css -->
+    <link rel="stylesheet" href="{% static 'dashboard/fonts/feather-font/css/iconfont.css' %}">
+    <link rel="stylesheet" href="{% static 'dashboard/vendors/flag-icon-css/css/flag-icon.min.css' %}">
+    <!-- endinject -->
+
+    <!-- Layout styles -->
+    <link rel="stylesheet" href="{% static 'dashboard/css/demo1/style.css' %}">
+    <!-- End layout styles -->
+
+    <link rel="shortcut icon" href="{% static 'dashboard/images/favicon.png' %}"/>
+</head>
+<body>
+
+<div class="main-wrapper">
+    {% block content %}
+    {% endblock content %}
+
+</div>
+
+<!-- core:js -->
+<script src="{% static 'dashboard/vendors/core/core.js' %}"></script>
+
+<!-- endinject -->
+
+<!-- Plugin js for this page -->
+<script src="{% static 'dashboard/vendors/chartjs/Chart.min.js' %}"></script>
+<script src="{% static 'dashboard/vendors/jquery.flot/jquery.flot.js' %}"></script>
+<script src="{% static 'dashboard/vendors/jquery.flot/jquery.flot.resize.js' %}"></script>
+<script src="{% static 'dashboard/vendors/bootstrap-datepicker/bootstrap-datepicker.min.js' %}"></script>
+<script src="{% static 'dashboard/vendors/apexcharts/apexcharts.min.js' %}"></script>
+<script src="{% static 'dashboard/vendors/datatables.net/jquery.dataTables.js' %}"></script>
+<!-- End plugin js for this page -->
+
+<!-- inject:js -->
+<script src="{% static 'dashboard/vendors/feather-icons/feather.min.js' %}"></script>
+<script src="{% static 'dashboard/js/template.js' %}"></script>
+<!-- endinject -->
+
+<!-- Custom js for this page -->
+<script src="{% static 'dashboard/js/dashboard-light.js' %}"></script>
+<script src="{% static 'dashboard/js/datepicker.js' %}"></script>
+<!-- End custom js for this page -->
+{% block scripts %}
+{% endblock scripts %}
+</body>
 </html>
+
