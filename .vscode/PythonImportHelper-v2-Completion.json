@@ -113,6 +113,14 @@
         "documentation": {}
     },
     {
+        "label": "SearchableRaceListView",
+        "importPath": "gpa_back.views",
+        "description": "gpa_back.views",
+        "isExtraImport": true,
+        "detail": "gpa_back.views",
+        "documentation": {}
+    },
+    {
         "label": "get_wsgi_application",
         "importPath": "django.core.wsgi",
         "description": "django.core.wsgi",
@@ -804,6 +812,38 @@
         "documentation": {}
     },
     {
+        "label": "FormSetView",
+        "importPath": "extra_views",
+        "description": "extra_views",
+        "isExtraImport": true,
+        "detail": "extra_views",
+        "documentation": {}
+    },
+    {
+        "label": "ModelFormSetView",
+        "importPath": "extra_views",
+        "description": "extra_views",
+        "isExtraImport": true,
+        "detail": "extra_views",
+        "documentation": {}
+    },
+    {
+        "label": "SearchableListMixin",
+        "importPath": "extra_views",
+        "description": "extra_views",
+        "isExtraImport": true,
+        "detail": "extra_views",
+        "documentation": {}
+    },
+    {
+        "label": "ListView",
+        "importPath": "django.views.generic",
+        "description": "django.views.generic",
+        "isExtraImport": true,
+        "detail": "django.views.generic",
+        "documentation": {}
+    },
+    {
         "label": "sys",
         "kind": 6,
         "isExtraImport": true,
@@ -952,7 +992,7 @@
         "kind": 5,
         "importPath": "core.settings",
         "description": "core.settings",
-        "peekOfCode": "TIME_ZONE = 'UTC'\nUSE_I18N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/4.1/howto/static-files/\nSTATIC_URL = '/static/'\nSTATICFILES_DIRS = (\n    os.path.join(BASE_DIR, 'static'),\n)\nSTATICFILES_FINDERS=[",
+        "peekOfCode": "TIME_ZONE = 'UTC'\nUSE_I18N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/4.1/howto/static-files/\nSTATIC_URL = '/static/'\nSTATICFILES_DIRS = (\n    os.path.join(BASE_DIR, 'static'),\n)\nSTATICFILES_FINDERS = [",
         "detail": "core.settings",
         "documentation": {}
     },
@@ -961,7 +1001,7 @@
         "kind": 5,
         "importPath": "core.settings",
         "description": "core.settings",
-        "peekOfCode": "USE_I18N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/4.1/howto/static-files/\nSTATIC_URL = '/static/'\nSTATICFILES_DIRS = (\n    os.path.join(BASE_DIR, 'static'),\n)\nSTATICFILES_FINDERS=[\n    'django.contrib.staticfiles.finders.FileSystemFinder',",
+        "peekOfCode": "USE_I18N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/4.1/howto/static-files/\nSTATIC_URL = '/static/'\nSTATICFILES_DIRS = (\n    os.path.join(BASE_DIR, 'static'),\n)\nSTATICFILES_FINDERS = [\n    'django.contrib.staticfiles.finders.FileSystemFinder',",
         "detail": "core.settings",
         "documentation": {}
     },
@@ -970,7 +1010,7 @@
         "kind": 5,
         "importPath": "core.settings",
         "description": "core.settings",
-        "peekOfCode": "USE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/4.1/howto/static-files/\nSTATIC_URL = '/static/'\nSTATICFILES_DIRS = (\n    os.path.join(BASE_DIR, 'static'),\n)\nSTATICFILES_FINDERS=[\n    'django.contrib.staticfiles.finders.FileSystemFinder',\n    'django.contrib.staticfiles.finders.AppDirectoriesFinder',",
+        "peekOfCode": "USE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/4.1/howto/static-files/\nSTATIC_URL = '/static/'\nSTATICFILES_DIRS = (\n    os.path.join(BASE_DIR, 'static'),\n)\nSTATICFILES_FINDERS = [\n    'django.contrib.staticfiles.finders.FileSystemFinder',\n    'django.contrib.staticfiles.finders.AppDirectoriesFinder',",
         "detail": "core.settings",
         "documentation": {}
     },
@@ -979,7 +1019,7 @@
         "kind": 5,
         "importPath": "core.settings",
         "description": "core.settings",
-        "peekOfCode": "STATIC_URL = '/static/'\nSTATICFILES_DIRS = (\n    os.path.join(BASE_DIR, 'static'),\n)\nSTATICFILES_FINDERS=[\n    'django.contrib.staticfiles.finders.FileSystemFinder',\n    'django.contrib.staticfiles.finders.AppDirectoriesFinder',\n]\n# Default primary key field type\n# https://docs.djangoproject.com/en/4.1/ref/settings/#default-auto-field",
+        "peekOfCode": "STATIC_URL = '/static/'\nSTATICFILES_DIRS = (\n    os.path.join(BASE_DIR, 'static'),\n)\nSTATICFILES_FINDERS = [\n    'django.contrib.staticfiles.finders.FileSystemFinder',\n    'django.contrib.staticfiles.finders.AppDirectoriesFinder',\n]\n# Default primary key field type\n# https://docs.djangoproject.com/en/4.1/ref/settings/#default-auto-field",
         "detail": "core.settings",
         "documentation": {}
     },
@@ -988,7 +1028,16 @@
         "kind": 5,
         "importPath": "core.settings",
         "description": "core.settings",
-        "peekOfCode": "STATICFILES_DIRS = (\n    os.path.join(BASE_DIR, 'static'),\n)\nSTATICFILES_FINDERS=[\n    'django.contrib.staticfiles.finders.FileSystemFinder',\n    'django.contrib.staticfiles.finders.AppDirectoriesFinder',\n]\n# Default primary key field type\n# https://docs.djangoproject.com/en/4.1/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'",
+        "peekOfCode": "STATICFILES_DIRS = (\n    os.path.join(BASE_DIR, 'static'),\n)\nSTATICFILES_FINDERS = [\n    'django.contrib.staticfiles.finders.FileSystemFinder',\n    'django.contrib.staticfiles.finders.AppDirectoriesFinder',\n]\n# Default primary key field type\n# https://docs.djangoproject.com/en/4.1/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'",
+        "detail": "core.settings",
+        "documentation": {}
+    },
+    {
+        "label": "STATICFILES_FINDERS",
+        "kind": 5,
+        "importPath": "core.settings",
+        "description": "core.settings",
+        "peekOfCode": "STATICFILES_FINDERS = [\n    'django.contrib.staticfiles.finders.FileSystemFinder',\n    'django.contrib.staticfiles.finders.AppDirectoriesFinder',\n]\n# Default primary key field type\n# https://docs.djangoproject.com/en/4.1/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'\nLOGIN_URL = \"/login/\"\nLOGIN_REDIRECT_URL = \"/home/\"\nLOGOUT_REDIRECT_URL = \"/login/\"",
         "detail": "core.settings",
         "documentation": {}
     },
@@ -997,7 +1046,7 @@
         "kind": 5,
         "importPath": "core.settings",
         "description": "core.settings",
-        "peekOfCode": "DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'\nLOGIN_URL = \"/login/\"\nLOGIN_REDIRECT_URL = \"/home/\"\nLOGOUT_REDIRECT_URL = \"/login/\"\nMESSAGE_TAGS = {\n        messages.DEBUG: 'alert-secondary',\n        messages.INFO: 'alert-info',\n        messages.SUCCESS: 'alert-success',\n        messages.WARNING: 'alert-warning',\n        messages.ERROR: 'alert-danger',",
+        "peekOfCode": "DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'\nLOGIN_URL = \"/login/\"\nLOGIN_REDIRECT_URL = \"/home/\"\nLOGOUT_REDIRECT_URL = \"/login/\"\nMESSAGE_TAGS = {\n    messages.DEBUG: 'alert-secondary',\n    messages.INFO: 'alert-info',\n    messages.SUCCESS: 'alert-success',\n    messages.WARNING: 'alert-warning',\n    messages.ERROR: 'alert-danger',",
         "detail": "core.settings",
         "documentation": {}
     },
@@ -1006,7 +1055,7 @@
         "kind": 5,
         "importPath": "core.settings",
         "description": "core.settings",
-        "peekOfCode": "LOGIN_URL = \"/login/\"\nLOGIN_REDIRECT_URL = \"/home/\"\nLOGOUT_REDIRECT_URL = \"/login/\"\nMESSAGE_TAGS = {\n        messages.DEBUG: 'alert-secondary',\n        messages.INFO: 'alert-info',\n        messages.SUCCESS: 'alert-success',\n        messages.WARNING: 'alert-warning',\n        messages.ERROR: 'alert-danger',\n}",
+        "peekOfCode": "LOGIN_URL = \"/login/\"\nLOGIN_REDIRECT_URL = \"/home/\"\nLOGOUT_REDIRECT_URL = \"/login/\"\nMESSAGE_TAGS = {\n    messages.DEBUG: 'alert-secondary',\n    messages.INFO: 'alert-info',\n    messages.SUCCESS: 'alert-success',\n    messages.WARNING: 'alert-warning',\n    messages.ERROR: 'alert-danger',\n}",
         "detail": "core.settings",
         "documentation": {}
     },
@@ -1015,7 +1064,7 @@
         "kind": 5,
         "importPath": "core.settings",
         "description": "core.settings",
-        "peekOfCode": "LOGIN_REDIRECT_URL = \"/home/\"\nLOGOUT_REDIRECT_URL = \"/login/\"\nMESSAGE_TAGS = {\n        messages.DEBUG: 'alert-secondary',\n        messages.INFO: 'alert-info',\n        messages.SUCCESS: 'alert-success',\n        messages.WARNING: 'alert-warning',\n        messages.ERROR: 'alert-danger',\n}\nCRISPY_ALLOWED_TEMPLATE_PACKS = \"bootstrap5\"",
+        "peekOfCode": "LOGIN_REDIRECT_URL = \"/home/\"\nLOGOUT_REDIRECT_URL = \"/login/\"\nMESSAGE_TAGS = {\n    messages.DEBUG: 'alert-secondary',\n    messages.INFO: 'alert-info',\n    messages.SUCCESS: 'alert-success',\n    messages.WARNING: 'alert-warning',\n    messages.ERROR: 'alert-danger',\n}\nCRISPY_ALLOWED_TEMPLATE_PACKS = \"bootstrap5\"",
         "detail": "core.settings",
         "documentation": {}
     },
@@ -1024,7 +1073,7 @@
         "kind": 5,
         "importPath": "core.settings",
         "description": "core.settings",
-        "peekOfCode": "LOGOUT_REDIRECT_URL = \"/login/\"\nMESSAGE_TAGS = {\n        messages.DEBUG: 'alert-secondary',\n        messages.INFO: 'alert-info',\n        messages.SUCCESS: 'alert-success',\n        messages.WARNING: 'alert-warning',\n        messages.ERROR: 'alert-danger',\n}\nCRISPY_ALLOWED_TEMPLATE_PACKS = \"bootstrap5\"\nCRISPY_TEMPLATE_PACK = \"bootstrap5\"",
+        "peekOfCode": "LOGOUT_REDIRECT_URL = \"/login/\"\nMESSAGE_TAGS = {\n    messages.DEBUG: 'alert-secondary',\n    messages.INFO: 'alert-info',\n    messages.SUCCESS: 'alert-success',\n    messages.WARNING: 'alert-warning',\n    messages.ERROR: 'alert-danger',\n}\nCRISPY_ALLOWED_TEMPLATE_PACKS = \"bootstrap5\"\nCRISPY_TEMPLATE_PACK = \"bootstrap5\"",
         "detail": "core.settings",
         "documentation": {}
     },
@@ -1033,7 +1082,7 @@
         "kind": 5,
         "importPath": "core.settings",
         "description": "core.settings",
-        "peekOfCode": "MESSAGE_TAGS = {\n        messages.DEBUG: 'alert-secondary',\n        messages.INFO: 'alert-info',\n        messages.SUCCESS: 'alert-success',\n        messages.WARNING: 'alert-warning',\n        messages.ERROR: 'alert-danger',\n}\nCRISPY_ALLOWED_TEMPLATE_PACKS = \"bootstrap5\"\nCRISPY_TEMPLATE_PACK = \"bootstrap5\"\nMESSAGE_STORAGE = 'django.contrib.messages.storage.cookie.CookieStorage'",
+        "peekOfCode": "MESSAGE_TAGS = {\n    messages.DEBUG: 'alert-secondary',\n    messages.INFO: 'alert-info',\n    messages.SUCCESS: 'alert-success',\n    messages.WARNING: 'alert-warning',\n    messages.ERROR: 'alert-danger',\n}\nCRISPY_ALLOWED_TEMPLATE_PACKS = \"bootstrap5\"\nCRISPY_TEMPLATE_PACK = \"bootstrap5\"\nMESSAGE_STORAGE = 'django.contrib.messages.storage.cookie.CookieStorage'",
         "detail": "core.settings",
         "documentation": {}
     },
@@ -1069,7 +1118,7 @@
         "kind": 5,
         "importPath": "core.urls",
         "description": "core.urls",
-        "peekOfCode": "urlpatterns = [\n    path('login/', auth_views.LoginView.as_view(), name='login'),\n    path('logout/', auth_views.LogoutView.as_view(), name='logout'),\n    path('home/', views.home, name='home'),\n    path('ask/race/', views.ask_for_race, name='ask-for-race'),\n    path('race/list/', views.races_list, name='race-list'),\n    path('ask/intervention/', views.ask_for_intervention, name='ask-for-intervention'),\n    path('contact/', views.home, name='contact'),\n    path('password_change/', views.password_change, name='password_change'),\n    path('register/', views.register, name='register'),",
+        "peekOfCode": "urlpatterns = [\n    path('login/', auth_views.LoginView.as_view(), name='login'),\n    path('logout/', auth_views.LogoutView.as_view(), name='logout'),\n    path('home/', views.home, name='home'),\n    path('ask/race/', views.ask_for_race, name='ask-for-race'),\n    path('ask/race/search-list/', SearchableRaceListView.as_view(), name='race-search-list'),\n    path('race/list/', views.races_list, name='race-list'),\n    path('ask/intervention/', views.ask_for_intervention, name='ask-for-intervention'),\n    path('contact/', views.home, name='contact'),\n    path('password_change/', views.password_change, name='password_change'),",
         "detail": "core.urls",
         "documentation": {}
     },
@@ -1317,11 +1366,20 @@
         "documentation": {}
     },
     {
+        "label": "SearchableRaceListView",
+        "kind": 6,
+        "importPath": "gpa_back.views",
+        "description": "gpa_back.views",
+        "peekOfCode": "class SearchableRaceListView(SearchableListMixin, ListView):\n    template_name = 'lists/race_list.html'\n    search_fields = ['project', 'steed', 'applicant']\n    model = Race",
+        "detail": "gpa_back.views",
+        "documentation": {}
+    },
+    {
         "label": "home",
         "kind": 2,
         "importPath": "gpa_back.views",
         "description": "gpa_back.views",
-        "peekOfCode": "def home(request:HttpRequest):\n    messages.add_message(request, messages.INFO,  'Bienvenue, %s ' % request.user.username)\n    if bool(request.user.groups.filter(name=\"RESPONSABLE\")) | request.user.is_superuser:\n        races_pending= Race.objects.filter(status=\"PENDING\").all()\n        interventions_pending= Intervention.objects.filter(status=\"PENDING\").all()\n        context={\"races\": races_pending,'interventions':interventions_pending}\n        template=\"dashboard.html\"\n        print(\"ACCOUNTABLE CTX :{}\".format(context))\n        return render(request, template, context)\n    else:",
+        "peekOfCode": "def home(request: HttpRequest):\n    messages.add_message(request, messages.INFO, 'Bienvenue, %s ' % request.user.username)\n    if bool(request.user.groups.filter(name=\"RESPONSABLE\")) | request.user.is_superuser:\n        races_pending = Race.objects.filter(status=\"PENDING\").all()\n        interventions_pending = Intervention.objects.filter(status=\"PENDING\").all()\n        context = {\"races\": races_pending, 'interventions': interventions_pending}\n        template = \"dashboard.html\"\n        print(\"ACCOUNTABLE CTX :{}\".format(context))\n        return render(request, template, context)\n    else:",
         "detail": "gpa_back.views",
         "documentation": {}
     },
@@ -1330,7 +1388,7 @@
         "kind": 2,
         "importPath": "gpa_back.views",
         "description": "gpa_back.views",
-        "peekOfCode": "def races_list(request:HttpRequest): \n    races= Race.objects.all().order_by('-status')\n    context={\"races\": races}\n    template=\"race_list.html\"\n    return render(request, template, context)\n@login_required\n@group_required(\"CHEF PROJET\")\ndef ask_for_race(request:HttpRequest):\n    if request.method == 'POST':\n        # create a form instance and populate it with data from the request:",
+        "peekOfCode": "def races_list(request: HttpRequest):\n    races = Race.objects.all().order_by('-status')\n    context = {\"races\": races}\n    template = \"race_list.html\"\n    return render(request, template, context)\n@login_required\n@group_required(\"CHEF PROJET\")\ndef ask_for_race(request: HttpRequest):\n    if request.method == 'POST':\n        # create a form instance and populate it with data from the request:",
         "detail": "gpa_back.views",
         "documentation": {}
     },
@@ -1339,7 +1397,7 @@
         "kind": 2,
         "importPath": "gpa_back.views",
         "description": "gpa_back.views",
-        "peekOfCode": "def ask_for_race(request:HttpRequest):\n    if request.method == 'POST':\n        # create a form instance and populate it with data from the request:\n        form = RaceForm(request.POST)\n        # check whether it's valid:\n        if form.is_valid():\n            # process the data in form.cleaned_data as required\n            # ...\n            # redirect to a new URL:\n            form.cleaned_data[\"status\"]=\"PENDING\"",
+        "peekOfCode": "def ask_for_race(request: HttpRequest):\n    if request.method == 'POST':\n        # create a form instance and populate it with data from the request:\n        form = RaceForm(request.POST)\n        # check whether it's valid:\n        if form.is_valid():\n            # process the data in form.cleaned_data as required\n            # ...\n            # redirect to a new URL:\n            form.cleaned_data[\"status\"] = \"PENDING\"",
         "detail": "gpa_back.views",
         "documentation": {}
     },
@@ -1348,7 +1406,7 @@
         "kind": 2,
         "importPath": "gpa_back.views",
         "description": "gpa_back.views",
-        "peekOfCode": "def ask_for_intervention(request:HttpRequest):\n    if request.method == 'POST':\n        # create a form instance and populate it with data from the request:\n        form = InterventionForm(request.POST)\n        # check whether it's valid:\n        if form.is_valid():\n            # process the data in form.cleaned_data as required\n            # ...\n            # redirect to a new URL:\n            form.cleaned_data[\"status\"]=\"PENDING\"",
+        "peekOfCode": "def ask_for_intervention(request: HttpRequest):\n    if request.method == 'POST':\n        # create a form instance and populate it with data from the request:\n        form = InterventionForm(request.POST)\n        # check whether it's valid:\n        if form.is_valid():\n            # process the data in form.cleaned_data as required\n            # ...\n            # redirect to a new URL:\n            form.cleaned_data[\"status\"] = \"PENDING\"",
         "detail": "gpa_back.views",
         "documentation": {}
     },
@@ -1357,7 +1415,7 @@
         "kind": 2,
         "importPath": "gpa_back.views",
         "description": "gpa_back.views",
-        "peekOfCode": "def password_change(request:HttpRequest):\n    return render(request, \"dashboard.html\", {})\ndef register(request:HttpRequest):\n    if request.method == 'POST':\n        form = UserCreationForm(request.POST)\n        if form.is_valid():\n            form.save()\n            username = form.cleaned_data.get('username')\n            password = form.cleaned_data.get('password1')\n            user = authenticate(username=username, password=password)",
+        "peekOfCode": "def password_change(request: HttpRequest):\n    return render(request, \"dashboard.html\", {})\ndef register(request: HttpRequest):\n    if request.method == 'POST':\n        form = UserCreationForm(request.POST)\n        if form.is_valid():\n            form.save()\n            username = form.cleaned_data.get('username')\n            password = form.cleaned_data.get('password1')\n            user = authenticate(username=username, password=password)",
         "detail": "gpa_back.views",
         "documentation": {}
     },
@@ -1366,7 +1424,7 @@
         "kind": 2,
         "importPath": "gpa_back.views",
         "description": "gpa_back.views",
-        "peekOfCode": "def register(request:HttpRequest):\n    if request.method == 'POST':\n        form = UserCreationForm(request.POST)\n        if form.is_valid():\n            form.save()\n            username = form.cleaned_data.get('username')\n            password = form.cleaned_data.get('password1')\n            user = authenticate(username=username, password=password)\n            login(request, user)\n            return redirect('home')",
+        "peekOfCode": "def register(request: HttpRequest):\n    if request.method == 'POST':\n        form = UserCreationForm(request.POST)\n        if form.is_valid():\n            form.save()\n            username = form.cleaned_data.get('username')\n            password = form.cleaned_data.get('password1')\n            user = authenticate(username=username, password=password)\n            login(request, user)\n            return redirect('home')",
         "detail": "gpa_back.views",
         "documentation": {}
     },
